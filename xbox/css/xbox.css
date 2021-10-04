@@ -1,0 +1,3326 @@
+html #cvp {
+    overflow-x: inherit;
+}
+#cvp .xbox-clearfix:after,
+#cvp .xbox-clearfix:before {
+    content: '';
+    display: table;
+}
+#cvp .xbox-clearfix:after {
+    clear: both;
+}
+#cvp .xbox-clearfix {
+    zoom: 1;
+}
+#cvp .xbox {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+    color: #646c79;
+    background-color: #fff;
+}
+#cvp .xbox a:active,
+#cvp .xbox a:focus,
+#cvp .xbox a:link,
+#cvp .xbox a:visited {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+    color: #dd3e88;
+}
+#cvp .xbox a:hover {
+    color: #fc6486;
+}
+#cvp .xbox.xbox-radius .ui.dropdown .menu,
+#cvp .xbox.xbox-radius .ui.dropdown.selection,
+#cvp .xbox.xbox-radius .xbox-btn,
+#cvp .xbox.xbox-radius .xbox-colorpicker-color,
+#cvp .xbox.xbox-radius .xbox-colorpicker-preview,
+#cvp .xbox.xbox-radius .xbox-group-control-item,
+#cvp .xbox.xbox-radius .xbox-preview-img img,
+#cvp .xbox.xbox-radius .xbox-unit,
+#cvp .xbox.xbox-radius input,
+#cvp .xbox.xbox-radius textarea {
+    border-radius: 3px;
+}
+.xbox * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+}
+.xbox :focus {
+    outline: 0;
+    box-shadow: none;
+}
+#cvp .xbox .last,
+#cvp .xbox .xbox-last {
+    margin-right: 0;
+}
+#cvp .xbox img {
+    max-width: 100%;
+    height: auto;
+}
+#cvp .xbox audio,
+#cvp .xbox embed,
+#cvp .xbox iframe,
+#cvp .xbox object,
+#cvp .xbox video {
+    max-width: 100%;
+    height: auto;
+}
+#cvp .xbox .xbox-block {
+    display: block;
+}
+#cvp .xbox .xbox-br-3 {
+    border-radius: 3px;
+}
+#cvp .xbox .xbox-br-4 {
+    border-radius: 4px;
+}
+#cvp .xbox .xbox-br-5 {
+    border-radius: 5px;
+}
+#cvp .xbox .xbox-br-6 {
+    border-radius: 6px;
+}
+#cvp .xbox .xbox-opacity-0 {
+    opacity: 0;
+}
+#cvp .xbox .xbox-opacity-10 {
+    opacity: 0.1;
+}
+#cvp .xbox .xbox-opacity-20 {
+    opacity: 0.2;
+}
+#cvp .xbox .xbox-opacity-30 {
+    opacity: 0.3;
+}
+#cvp .xbox .xbox-opacity-40 {
+    opacity: 0.4;
+}
+#cvp .xbox .xbox-opacity-50 {
+    opacity: 0.5;
+}
+#cvp .xbox .xbox-opacity-60 {
+    opacity: 0.6;
+}
+#cvp .xbox .xbox-opacity-70 {
+    opacity: 0.7;
+}
+#cvp .xbox .xbox-opacity-80 {
+    opacity: 0.8;
+}
+#cvp .xbox .xbox-opacity-90 {
+    opacity: 0.9;
+}
+#cvp .xbox .xbox-opacity-100 {
+    opacity: 1;
+}
+#cvp .xbox .xbox-noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+#cvp .xbox .xbox-sortable-placeholder {
+    border: 2px dashed #b5beca;
+    border-radius: 0 !important;
+}
+#cvp .xbox .xbox-icon {
+    font-size: 1em;
+}
+#cvp .xbox .arrow.icon {
+    position: relative;
+    left: auto;
+    bottom: auto;
+    top: auto;
+    z-index: 0;
+}
+#cvp .postbox.xbox-postbox {
+    border-color: #e5e5e5;
+    box-shadow: 0 1px 1px rgba(214, 219, 226, 0.4);
+}
+#cvp .postbox.xbox-postbox .hndle {
+    border-bottom: 1px solid #e5e5e5;
+}
+#cvp .postbox.xbox-postbox .inside {
+    padding: 0;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+#cvp .postbox.xbox-postbox .inside .xbox {
+    border: 0;
+}
+#cvp .wp-import-messages {
+    display: none;
+}
+#cvp .kint {
+    position: relative;
+    left: 180px;
+    z-index: 9999999;
+    width: 70%;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+#cvp .kint dl dt {
+    padding: 8px 12px;
+}
+#cvp .kint dl dd dl dt {
+    font-size: 12px;
+    padding: 4px 12px;
+}
+#cvp .kint footer {
+    color: #363a41;
+    font-size: 12px;
+    padding-top: 5px;
+}
+#cvp .kint footer li {
+    color: #666;
+    line-height: 20px;
+}
+#cvp .kint footer .kint-popup-trigger {
+    display: none;
+}
+#cvp .xbox-header {
+    height: 0;
+}
+#cvp .xbox-header .xbox-header-title {
+    display: table-cell;
+    width: 25%;
+    height: 100%;
+    padding: 15px 25px;
+    background: #3380da;
+    font-size: 25px;
+    line-height: 1.3;
+    border-top-left-radius: 4px;
+    vertical-align: middle;
+    border-right: 1px solid #2778d7;
+}
+#cvp .xbox-boxed .xbox-header .xbox-header-title {
+    width: 25.8%;
+}
+#cvp .xbox.xbox-has-main-tab .xbox-header .xbox-header-title {
+    width: 230px;
+}
+#cvp .xbox-header.xbox-has-logo .xbox-header-title h3 {
+    text-align: center;
+}
+#cvp .xbox-header .xbox-header-title h3 {
+    color: #fff;
+    font-size: 20px;
+    display: block;
+    font-weight: 700;
+    background: 0 0;
+    cursor: default;
+    border: 0;
+    box-shadow: none;
+    text-shadow: none;
+}
+#cvp .xbox-header .xbox-header-title h3:hover {
+    color: #fff;
+}
+#cvp .xbox-header .xbox-header-title i {
+    font-size: inherit;
+    opacity: 0.98;
+    vertical-align: top;
+    line-height: 1.25;
+    margin-right: 4px;
+}
+#cvp .xbox-header .xbox-header-title img {
+    display: block;
+    max-width: 160px;
+    margin: 0 auto 8px;
+}
+#cvp .xbox-header .xbox-header-title .xbox-header-icon {
+    display: inline-block;
+}
+#cvp .xbox-header .xbox-header-content {
+    position: relative;
+    z-index: 1;
+    display: table-cell;
+    width: auto;
+    height: 100%;
+    padding: 15px 25px;
+    background: #e9ecef;
+    border-top-right-radius: 4px;
+    vertical-align: middle;
+}
+#cvp .xbox-header .xbox-header-content a {
+    color: #fff;
+    text-decoration: underline;
+}
+#cvp .xbox-admin-page .xbox-header .xbox-header-content {
+    padding-right: 330px;
+}
+#cvp .xbox-header .xbox-header-theme-name {
+    line-height: 60px;
+    padding-left: 25px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #363a41;
+}
+#cvp .xbox-header .xbox-header-theme-name img {
+    margin-top: -2px;
+}
+#cvp .xbox-header .xbox-header-actions {
+    position: absolute;
+    top: 10px;
+    right: 4px;
+}
+#cvp .xbox-footer {
+    display: table;
+    width: 100%;
+    height: 22px;
+}
+#cvp .xbox-footer .xbox-footer-title {
+    display: table-cell;
+    width: 25%;
+    height: 100%;
+}
+#cvp .xbox-boxed .xbox-footer .xbox-footer-title {
+    width: 25.8%;
+}
+#cvp .xbox.xbox-has-main-tab .xbox-footer .xbox-footer-title {
+    background: #3a445a;
+    width: 230px;
+}
+#cvp .xbox-footer .xbox-footer-content {
+    position: relative;
+    z-index: 1;
+    display: table-cell;
+    padding: 0 25px;
+    width: auto;
+    height: 100%;
+    vertical-align: middle;
+    text-align: right;
+    color: #8f9bae;
+}
+#cvp .xbox-footer .xbox-footer-content span {
+    font-size: 10px;
+}
+@media only screen and (max-width: 768px) {
+    #cvp .xbox-footer {
+        display: none;
+    }
+}
+#cvp .xbox-wrap-admin-page.wrap {
+    margin: 0;
+}
+#cvp .xbox-wrap-admin-page .xbox-admin-page-title {
+    margin-bottom: 8px;
+    font-weight: 400;
+}
+#cvp .xbox-wrap-admin-page .xbox-admin-page-title i {
+    padding-right: 8px;
+}
+#cvp .xbox-wrap-admin-page .xbox {
+    background: #fff;
+}
+#cvp .xbox-wrap-admin-page #xbox-reset,
+#cvp .xbox-wrap-admin-page #xbox-save {
+    margin-top: 2px;
+    margin-right: 8px;
+    margin-left: 8px;
+    border-radius: 3px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#cvp .xbox-wrap-admin-page #xbox-save {
+    background: linear-gradient(45deg, #42bdc1 0%, #a3ef95 100%) !important;
+}
+#cvp .xbox-wrap-admin-page #xbox-save:hover {
+    background: linear-gradient(45deg, #a3ef95 0%, #42bdc1 100%) !important;
+}
+#cvp .xbox-form {
+    margin: 0;
+    padding: 0;
+}
+#cvp .xbox-row {
+    display: block;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    margin-top: -1px;
+    margin-bottom: -1px;
+    position: relative;
+    max-width: 100%;
+    background: #fff;
+}
+#cvp .xbox-row:nth-of-type(1) {
+    border: none;
+}
+#cvp .xbox-header + .xbox-row {
+    margin-top: 0;
+}
+#cvp .xbox-row .xbox-label {
+    position: relative;
+    float: left;
+    width: 25%;
+    height: 100%;
+    padding: 15px 25px;
+    border-right: 1px solid #e5e5e5;
+    box-sizing: border-box;
+}
+#cvp .xbox-row .xbox-label label {
+    position: relative;
+    font-size: 13px;
+    color: #646c79;
+    display: inline-block;
+    line-height: 24px;
+    font-weight: 700;
+}
+#cvp .xbox-row .xbox-content {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    line-height: 0;
+    border-left: 1px solid #e5e5e5;
+    margin-left: -1px;
+    margin-right: -1px;
+}
+#cvp .xbox-row .xbox-content .xbox-field {
+    position: relative;
+    display: inline-block;
+    line-height: 1.6;
+    min-height: 22px;
+    max-width: 100%;
+}
+#cvp .xbox-row .xbox-label + .xbox-content {
+    float: left;
+    width: 75%;
+}
+#cvp .xbox-row.xbox-type-import .xbox-label + .xbox-content {
+    float: left;
+    width: 100%;
+}
+#cvp .xbox-row.xbox-type-group > .xbox-content {
+    display: table;
+}
+#cvp .xbox-row.xbox-type-group > .xbox-label {
+    position: relative;
+    width: 100% !important;
+    border-bottom: 0;
+    border-right: 0;
+}
+#cvp .xbox-row.xbox-type-group > .xbox-label .xbox-element-label {
+    transform: none;
+    top: auto;
+}
+#cvp .xbox-row.xbox-type-group > .xbox-label .xbox-btn {
+    margin-left: 6px;
+    margin-bottom: 6px;
+}
+#cvp .xbox-row.xbox-type-group > .xbox-label .xbox-btn:first-of-type {
+    margin-left: 15px;
+}
+#cvp .xbox-row.xbox-type-group > .xbox-label + .xbox-content {
+    width: 100% !important;
+    padding: 5px 25px 10px;
+}
+#cvp .xbox-row .xbox-field-description {
+    margin-top: 8px;
+    line-height: 1.5;
+    color: #8391a6;
+    font-size: 12px;
+    font-style: italic;
+}
+#cvp .xbox-row .xbox-field-description > .xbox-field-description-title {
+    display: block;
+    color: #808ea4;
+    line-height: inherit;
+}
+#cvp .xbox-row .xbox-field-description a {
+    font-size: 12px;
+    font-weight: 700;
+    padding: 0;
+}
+#cvp .xbox-row .xbox-tooltip-handler.xbox-icon {
+    position: absolute;
+    top: -1px;
+    right: 0;
+    width: 16px;
+    height: 16px;
+    display: block;
+    margin: 0;
+    border-top: 1px solid #e5e5e5;
+    border-left: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    text-align: center;
+    color: #bec5d0;
+    cursor: pointer;
+    transition: 0.2s all ease;
+    line-height: 16px;
+}
+#cvp .xbox-row .xbox-tooltip-handler.xbox-icon:hover {
+    color: #808ea4;
+}
+#cvp .xbox-row .xbox-wrap-mixed + .xbox-field-description:not(.xbox-tooltip-handler) {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+#cvp .xbox-separator {
+    height: 20px;
+    width: 100%;
+    background: #e9ecef;
+}
+#cvp .xbox-main-tab + .xbox-separator,
+#cvp .xbox-tab .xbox-separator:last-child,
+#cvp .xbox-wide .xbox-separator:last-child {
+    display: none;
+}
+#cvp .xbox-row.xbox-type-mixed .xbox-content {
+    padding-bottom: 0;
+}
+#cvp .xbox-row-mixed {
+    float: left;
+    margin-top: 0;
+    margin-right: 2.5%;
+    margin-bottom: 30px;
+    display: inline-block;
+    vertical-align: top;
+    border: 0;
+}
+#cvp .xbox-row-mixed:last-child {
+    margin-right: 0;
+}
+#cvp .xbox-row-mixed .xbox-label-mixed {
+    line-height: 16px;
+    margin-top: -5px;
+    margin-bottom: 5px;
+}
+#cvp .xbox-row-mixed.xbox-row-id-create-actors-page .xbox-label-mixed,
+#cvp .xbox-row-mixed.xbox-row-id-create-blog-page .xbox-label-mixed,
+#cvp .xbox-row-mixed.xbox-row-id-create-categories-page .xbox-label-mixed,
+#cvp .xbox-row-mixed.xbox-row-id-create-menu .xbox-label-mixed,
+#cvp .xbox-row-mixed.xbox-row-id-create-my-profile-page .xbox-label-mixed,
+#cvp .xbox-row-mixed.xbox-row-id-create-tags-page .xbox-label-mixed,
+#cvp .xbox-row-mixed.xbox-row-id-create-video-submit-page .xbox-label-mixed,
+#cvp .xbox-row-mixed.xbox-row-id-create-widgets .xbox-label-mixed,
+#cvp .xbox-row-mixed.xbox-row-id-import-adult-dummy-videos .xbox-label-mixed,
+#cvp .xbox-row-mixed.xbox-row-id-import-mainstream-dummy-videos .xbox-label-mixed {
+    display: none;
+}
+#cvp .select-thumbs i {
+    margin-left: 5px;
+}
+#cvp .xbox-row-id-thumbnails .thumbs-list {
+    margin-top: 20px;
+}
+#cvp .xbox-row-id-thumbnails .thumbs-list li {
+    margin: 5px 10px 5px 0;
+    float: left;
+    position: relative;
+}
+#cvp .xbox-row-id-thumbnails .thumbs-list li img {
+    width: 120px;
+    height: 75px;
+}
+#cvp .xbox-row-id-thumbnails .thumbs-list li .xbox-remove-preview {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+}
+#cvp .xbox-row-id-thumbnails .thumbs-list li i.fa-spinner {
+    position: absolute;
+    top: 20px;
+    left: 38px;
+    font-size: 2.5em;
+    color: rgba(255, 255, 255, 0.7);
+    display: none;
+}
+#cvp .xbox-row-id-thumbnails .thumbs-list img.xbox-image-loading {
+    opacity: 0;
+}
+#cvp .xbox-row-id-thumbnails .thumbs-list img.xbox-image-loaded {
+    opacity: 1;
+    -webkit-transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease;
+}
+#cvp .xbox-row-mixed .xbox-label-mixed label {
+    font-size: 12px;
+    display: inline-block;
+    font-weight: 400;
+}
+#cvp .xbox-row-mixed .xbox-content-mixed {
+    line-height: 0;
+}
+#cvp .xbox-group-wrap {
+    width: 100%;
+}
+#cvp .xbox-group-wrap .xbox-group-item {
+    display: none;
+    width: 100%;
+    margin-bottom: 15px;
+    border: 1px solid #e5e5e5;
+    padding: 0;
+    box-sizing: border-box;
+}
+#cvp .xbox-group-wrap .xbox-group-item.xbox-active {
+    display: block;
+}
+#cvp .xbox-group-control {
+    list-style: none;
+    margin: 0 -6px;
+}
+#cvp .xbox-group-control > li {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    max-width: 162px;
+    min-width: 110px;
+    height: auto;
+    margin: 0 6px 20px 6px;
+    padding-bottom: 30px;
+    font-size: 13px;
+    background: #fff;
+    color: #646c79;
+    border: 2px solid #e5e5e5;
+    overflow: hidden;
+    cursor: pointer;
+    transition: border 0.1s ease-in;
+    box-sizing: border-box;
+}
+#cvp .xbox-group-control > li .xbox-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+#cvp .xbox-sortable.xbox-group-control > li .xbox-inner {
+    cursor: move;
+}
+#cvp .xbox-group-control > li .xbox-inner input {
+    border: none;
+}
+#cvp .xbox-group-control > li .xbox-inner img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: block;
+    max-width: 100%;
+    line-height: 0;
+    margin: auto;
+}
+#cvp .xbox-group-control > li .xbox-inner .xbox-readonly-name {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0);
+}
+#cvp .xbox-group-control > li .xbox-actions {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    padding: 8px 15px;
+    line-height: 14px;
+    background: #e5e5e5;
+    overflow: hidden;
+    text-align: left;
+    box-sizing: border-box;
+    color: #2e3647;
+    font-size: 14px;
+    transition: all 0.1s ease-in;
+}
+#cvp .xbox-sortable.xbox-group-control > li .xbox-actions {
+    cursor: move;
+}
+#cvp .xbox-group-control > li .xbox-actions .xbox-actions-left {
+    float: left;
+    line-height: 1;
+}
+#cvp .xbox-group-control > li .xbox-actions .xbox-actions-right {
+    float: right;
+    line-height: 1;
+}
+#cvp .xbox-group-control > li .xbox-actions .xbox-info-order-item {
+    float: left;
+    display: inline-block;
+    line-height: 1;
+}
+#cvp .xbox-group-control > li .xbox-actions .xbox-btn {
+    margin-right: 8px;
+    color: #384256;
+    transition: none;
+}
+#cvp .xbox-group-control > li .xbox-actions .xbox-btn:last-child {
+    margin-right: 0;
+}
+#cvp .xbox-group-control > li .xbox-actions .xbox-btn:hover {
+    color: #000;
+}
+#cvp .xbox-group-control > li .xbox-actions .xbox-btn i {
+    opacity: 0.9;
+    font-size: 1.12em;
+}
+#cvp .xbox-group-control > li .xbox-actions .xbox-btn i.dashicons {
+    font-size: 1.18em;
+    width: 1.18em;
+    height: 1em;
+}
+#cvp .xbox-group-control > li:hover {
+    border-color: #afb8c6;
+}
+#cvp .xbox-group-control > li:hover .xbox-actions {
+    background: #b2bbc8;
+}
+#cvp .xbox-group-control > li.xbox-active {
+    border-color: #3380da;
+}
+#cvp .xbox-group-control > li.xbox-active .xbox-inner p {
+    color: #242a38;
+}
+#cvp .xbox-group-control > li.xbox-active .xbox-actions {
+    color: #eef0f3;
+    background: #3380da;
+}
+#cvp .xbox-group-control > li.xbox-active .xbox-actions .xbox-btn {
+    color: #eef0f3;
+}
+#cvp .xbox-group-control > li.xbox-active .xbox-actions .xbox-btn:hover {
+    color: #fff !important;
+}
+#cvp .xbox-group-control > li .xbox-wrap-image {
+    position: absolute;
+    z-index: 1;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background-repeat: repeat;
+    background-size: initial;
+    background-position: top;
+}
+#cvp .xbox-group-control > li .xbox-control-image {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+#cvp .xbox-group-control.xbox-has-images .xbox-group-control-item {
+    width: 162px;
+}
+#cvp .xbox-group-control.xbox-has-images .xbox-group-control-item .xbox-inner {
+    width: 100%;
+    min-height: 70px;
+    height: 100%;
+}
+#cvp .xbox-group-control.xbox-position-left {
+    display: table-cell;
+    vertical-align: top;
+}
+#cvp .xbox-group-control.xbox-position-left + .xbox-group-wrap {
+    display: table-cell;
+    vertical-align: top;
+    padding-left: 20px;
+}
+#cvp .xbox-group-control.xbox-position-left .xbox-group-control-item,
+#cvp .xbox-group-control.xbox-position-left .xbox-sortable-placeholder {
+    margin: 0 0 10px 0;
+}
+#cvp .xbox-repeatable-wrap {
+    padding-right: 20px;
+    padding-bottom: 28px;
+    display: block;
+    max-width: 100%;
+}
+#cvp .xbox-repeatable-wrap.xbox-sortable {
+    padding-right: 35px;
+}
+#cvp .xbox-repeatable-wrap.xbox-sortable .xbox-remove-repeatable-item {
+    right: -38px;
+}
+#cvp .xbox-repeatable-wrap.xbox-sortable .xbox-sort-item {
+    display: inline-block !important;
+}
+#cvp .xbox-repeatable-wrap .xbox-sort-item {
+    display: none !important;
+}
+#cvp .xbox-repeatable-wrap .xbox-remove-repeatable-item,
+#cvp .xbox-repeatable-wrap .xbox-sort-item {
+    position: absolute;
+    top: 5px;
+    right: -21px;
+}
+#cvp .xbox-repeatable-wrap .xbox-repeatable-item {
+    position: relative;
+    margin-bottom: 13px;
+}
+#cvp .xbox-repeatable-wrap .xbox-repeatable-item .xbox-field {
+    display: block;
+}
+#cvp .xbox-repeatable-wrap .xbox-add-repeatable-item {
+    position: absolute;
+}
+#cvp .xbox-row-mixed.xbox-grid > .xbox-content-mixed > .xbox-field,
+#cvp .xbox-row-mixed.xbox-grid > .xbox-content-mixed > .xbox-repeatable-wrap {
+    display: block;
+}
+#cvp .xbox-grid.new-row {
+    clear: both;
+}
+#cvp .xbox-field.xbox-col-6-of-6,
+#cvp .xbox-repeatable-wrap.xbox-col-6-of-6 {
+    width: 100%;
+}
+#cvp .xbox-field.xbox-col-5-of-6,
+#cvp .xbox-repeatable-wrap.xbox-col-5-of-6 {
+    width: 83.33%;
+}
+#cvp .xbox-field.xbox-col-4-of-6,
+#cvp .xbox-repeatable-wrap.xbox-col-4-of-6 {
+    width: 66.66%;
+}
+#cvp .xbox-field.xbox-col-3-of-6,
+#cvp .xbox-repeatable-wrap.xbox-col-3-of-6 {
+    width: 50%;
+}
+#cvp .xbox-field.xbox-col-2-of-6,
+#cvp .xbox-repeatable-wrap.xbox-col-2-of-6 {
+    width: 33.33%;
+}
+#cvp .xbox-field.xbox-col-1-of-6,
+#cvp .xbox-repeatable-wrap.xbox-col-1-of-6 {
+    width: 16.66%;
+}
+#cvp .xbox-field.xbox-col-8-of-8,
+#cvp .xbox-repeatable-wrap.xbox-col-8-of-8 {
+    width: 100%;
+}
+#cvp .xbox-field.xbox-col-7-of-8,
+#cvp .xbox-repeatable-wrap.xbox-col-7-of-8 {
+    width: 87.5%;
+}
+#cvp .xbox-field.xbox-col-6-of-8,
+#cvp .xbox-repeatable-wrap.xbox-col-6-of-8 {
+    width: 75%;
+}
+#cvp .xbox-field.xbox-col-5-of-8,
+#cvp .xbox-repeatable-wrap.xbox-col-5-of-8 {
+    width: 62.5%;
+}
+#cvp .xbox-field.xbox-col-4-of-8,
+#cvp .xbox-repeatable-wrap.xbox-col-4-of-8 {
+    width: 50%;
+}
+#cvp .xbox-field.xbox-col-3-of-8,
+#cvp .xbox-repeatable-wrap.xbox-col-3-of-8 {
+    width: 37.5%;
+}
+#cvp .xbox-field.xbox-col-2-of-8,
+#cvp .xbox-repeatable-wrap.xbox-col-2-of-8 {
+    width: 25%;
+}
+#cvp .xbox-field.xbox-col-1-of-8,
+#cvp .xbox-repeatable-wrap.xbox-col-1-of-8 {
+    width: 12.5%;
+}
+#cvp .xbox-row-mixed.xbox-col-6-of-6 {
+    width: 100%;
+}
+#cvp .xbox-row-mixed.xbox-col-5-of-6 {
+    width: 82.91%;
+}
+#cvp .xbox-row-mixed.xbox-col-4-of-6 {
+    width: 65.83%;
+}
+#cvp .xbox-row-mixed.xbox-col-3-of-6 {
+    width: 48.75%;
+}
+#cvp .xbox-row-mixed.xbox-col-2-of-6 {
+    width: 31.66%;
+}
+#cvp .xbox-row-mixed.xbox-col-1-of-6 {
+    width: 14.58%;
+}
+#cvp .xbox-row-mixed.xbox-col-8-of-8 {
+    width: 100%;
+}
+#cvp .xbox-row-mixed.xbox-col-7-of-8 {
+    width: 87.18%;
+}
+#cvp .xbox-row-mixed.xbox-col-6-of-8 {
+    width: 74.37%;
+}
+#cvp .xbox-row-mixed.xbox-col-5-of-8 {
+    width: 61.56%;
+}
+#cvp .xbox-row-mixed.xbox-col-4-of-8 {
+    width: 48.75%;
+}
+#cvp .xbox-row-mixed.xbox-col-3-of-8 {
+    width: 35.93%;
+}
+#cvp .xbox-row-mixed.xbox-col-2-of-8 {
+    width: 23.12%;
+}
+#cvp .xbox-row-mixed.xbox-col-1-of-8 {
+    width: 10.31%;
+}
+#cvp .import_message_success,
+#cvp .temp-message {
+    margin-top: 10px;
+    padding: 5px 8px;
+    position: relative;
+}
+#cvp .import_message_success .close {
+    display: block;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    color: #31708f !important;
+}
+#cvp .xbox-tab {
+    position: relative;
+}
+#cvp .xbox-row + .xbox-tab:not(.xbox-main-tab) {
+    border-top: 1px solid #e5e5e5;
+}
+#cvp .xbox-tab-header {
+    position: relative;
+    width: 100%;
+    background: #f8f8f8;
+}
+#cvp .xbox-tab-header .xbox-tab-nav {
+    display: block;
+}
+#cvp .xbox-tab-header .xbox-tab-menu {
+    border-bottom: 1px solid #e5e5e5;
+}
+#cvp .xbox-tab-header .xbox-tab-menu .xbox-item {
+    float: left;
+    position: relative;
+    padding: 0 25px;
+}
+#cvp .xbox-tab-header .xbox-tab-menu .xbox-item a {
+    position: relative;
+    display: block;
+    height: 46px;
+    line-height: 46px;
+    color: #646c79;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+}
+#cvp .xbox-tab-header .xbox-tab-menu .xbox-item a:hover {
+    color: #383d44;
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.025) 0%, rgba(0, 0, 0, 0.05) 100%) !important;
+}
+#cvp .xbox-tab-header .xbox-tab-menu .xbox-item i {
+    width: 16px;
+    margin-right: 5px;
+    text-align: center;
+}
+#cvp .xbox-tab-header .xbox-tab-menu .xbox-item.active a {
+    color: #383d44;
+}
+#cvp .xbox-tab-header .xbox-tab-menu .xbox-item.active a:after {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    z-index: 10;
+    content: ' ';
+    background: #3380da;
+    height: 3px;
+    width: 100%;
+}
+#cvp .xbox-tab-body {
+    clear: both;
+}
+#cvp .xbox-tab-body > .xbox-tab-content {
+    display: block;
+    border-bottom: 1px solid #e5e5e5;
+}
+#cvp .xbox-tab-body > .xbox-tab-content:first-of-type {
+    display: block;
+}
+#cvp .xbox-tab-body > .xbox-accordion-title,
+#cvp .xbox-tab-body > .xbox-tab-content {
+    display: none;
+}
+#cvp .xbox-main-tab > .xbox-tab-header,
+#cvp .xbox-tab-dark > .xbox-tab-header {
+    background: #fff;
+}
+#cvp .xbox-main-tab > .xbox-tab-header:before,
+#cvp .xbox-tab-dark > .xbox-tab-header:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    content: '';
+    width: 1px;
+    height: 100%;
+    background: #e5e5e5;
+}
+#cvp .xbox-main-tab > .xbox-tab-header .xbox-tab-menu,
+#cvp .xbox-tab-dark > .xbox-tab-header .xbox-tab-menu {
+    border-bottom: 0;
+}
+#cvp .xbox-main-tab > .xbox-tab-header .xbox-tab-menu .xbox-item,
+#cvp .xbox-tab-dark > .xbox-tab-header .xbox-tab-menu .xbox-item {
+    padding: 0;
+}
+#cvp .xbox-main-tab > .xbox-tab-header .xbox-tab-menu .xbox-item.active,
+#cvp .xbox-tab-dark > .xbox-tab-header .xbox-tab-menu .xbox-item.active,
+#cvp .xbox-tab.xbox-tab-left > .xbox-tab-header .xbox-tab-menu .xbox-item:hover {
+    background: #f8f8f8;
+}
+#cvp .xbox.xbox-skin-pink .xbox-main-tab > .xbox-tab-header .xbox-tab-menu .xbox-item:hover:after {
+    background: linear-gradient(0deg, #dd3e88 0%, #932493 100%);
+}
+#cvp .xbox-main-tab > .xbox-tab-header .xbox-tab-menu .xbox-item.active a,
+#cvp .xbox-tab-dark > .xbox-tab-header .xbox-tab-menu .xbox-item.active a {
+    color: #fff;
+}
+#cvp .xbox-main-tab > .xbox-tab-header .xbox-tab-menu .xbox-item.active a:after,
+#cvp .xbox-tab-dark > .xbox-tab-header .xbox-tab-menu .xbox-item.active a:after {
+    display: none;
+}
+#cvp .xbox-main-tab > .xbox-tab-header .xbox-tab-menu .xbox-item.active:after,
+#cvp .xbox-tab-dark > .xbox-tab-header .xbox-tab-menu .xbox-item.active:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: ' ';
+    background: #3380da;
+    height: 5px;
+    width: 100%;
+}
+#cvp .xbox-main-tab > .xbox-tab-header .xbox-tab-menu .xbox-item.active:first-child:after,
+#cvp .xbox-tab-dark > .xbox-tab-header .xbox-tab-menu .xbox-item.active:first-child:after {
+    border-left: 1px solid #3380da;
+    left: -1px;
+}
+#cvp .xbox-main-tab > .xbox-tab-header .xbox-tab-menu .xbox-item a,
+#cvp .xbox-tab-dark > .xbox-tab-header .xbox-tab-menu .xbox-item a {
+    height: 54px;
+    line-height: 54px;
+    padding: 0 25px;
+    color: rgba(255, 255, 255, 0.7);
+    border-right: 1px solid #30384a;
+    border-bottom: 1px solid #30384a;
+}
+#cvp .xbox-main-tab > .xbox-tab-header .xbox-tab-menu .xbox-item a:hover,
+#cvp .xbox-tab-dark > .xbox-tab-header .xbox-tab-menu .xbox-item a:hover {
+    color: #fff;
+}
+#cvp .xbox-tab.xbox-tab-left {
+    display: table;
+    width: 100%;
+}
+#cvp .xbox-tab.xbox-tab-left > .xbox-tab-header {
+    width: 230px;
+    height: 100%;
+    display: table-cell;
+    padding-bottom: 30px;
+}
+#cvp .xbox-tab.xbox-tab-left > .xbox-tab-header .xbox-tab-menu .xbox-item {
+    width: 100%;
+    height: auto;
+    line-height: 40px;
+    border-bottom: 1px solid #e5e5e5;
+}
+#cvp .xbox-tab.xbox-tab-left > .xbox-tab-header .xbox-tab-menu .xbox-item.active a {
+    color: #363a41;
+}
+#cvp .xbox-tab.xbox-tab-left > .xbox-tab-header .xbox-tab-menu .xbox-item.active:after,
+#cvp .xbox-tab.xbox-tab-left > .xbox-tab-header .xbox-tab-menu .xbox-item:hover:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: ' ';
+    background: #3380da;
+    height: 100%;
+    width: 5px;
+}
+#cvp .xbox-tab.xbox-tab-left > .xbox-tab-header .xbox-tab-menu .xbox-item.active:first-child:after,
+#cvp .xbox-tab.xbox-tab-left > .xbox-tab-header .xbox-tab-menu .xbox-item:hover:first-child:after {
+    border-left: 0;
+    left: 0;
+}
+#cvp .xbox-tab.xbox-tab-left > .xbox-tab-header .xbox-tab-menu .xbox-item a {
+    height: auto;
+    line-height: 24px;
+    padding: 10px 5px 10px 20px;
+    color: #646c79;
+    border-right: 0;
+    border-bottom: 0;
+}
+#cvp .xbox-tab.xbox-tab-left > .xbox-tab-body {
+    display: table-cell;
+    width: auto;
+}
+#cvp .xbox-tab.accordion .xbox-tab-header {
+    width: 100% !important;
+    background: #3380da;
+}
+#cvp .xbox-tab.accordion .xbox-tab-nav {
+    display: none;
+}
+#cvp .xbox-tab.accordion .xbox-accordion-title {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: #f4f5f7;
+}
+#cvp .xbox-tab.accordion .xbox-accordion-title a {
+    position: relative;
+    display: block;
+    padding: 0 10px 0 20px;
+    line-height: 24px;
+    color: #646c79;
+    font-size: 13px;
+    font-weight: 700;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 1px solid #e5e5e5;
+}
+#cvp .xbox-tab.accordion .xbox-accordion-title a:hover {
+    color: #383d44;
+}
+#cvp .xbox-tab.accordion .xbox-accordion-title a span {
+    position: relative;
+    display: inline-block;
+    padding: 10px 0 10px 0;
+}
+#cvp .xbox-tab.accordion .xbox-accordion-title.active a {
+    color: #383d44;
+}
+#cvp .xbox-tab.accordion .xbox-accordion-title.active a span:after {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    z-index: 10;
+    content: ' ';
+    background: #3380da;
+    height: 3px;
+    width: 100%;
+}
+#cvp .xbox-tab.accordion .xbox-accordion-title i {
+    width: 16px;
+    margin-right: 5px;
+    text-align: center;
+}
+#cvp .xbox-tab.accordion.xbox-main-tab > .xbox-tab-body > .xbox-accordion-title,
+#cvp .xbox-tab.accordion.xbox-tab-dark > .xbox-tab-body > .xbox-accordion-title {
+    background: #3a445a;
+}
+#cvp .xbox-tab.accordion.xbox-main-tab > .xbox-tab-body > .xbox-accordion-title a,
+#cvp .xbox-tab.accordion.xbox-tab-dark > .xbox-tab-body > .xbox-accordion-title a {
+    padding: 0;
+    color: rgba(255, 255, 255, 0.7);
+    border-bottom: 1px solid #30384a;
+    line-height: 24px;
+    border-left: 0;
+    border-right: 0;
+}
+#cvp .xbox-tab.accordion.xbox-main-tab > .xbox-tab-body > .xbox-accordion-title a:hover,
+#cvp .xbox-tab.accordion.xbox-tab-dark > .xbox-tab-body > .xbox-accordion-title a:hover {
+    color: #fff;
+}
+#cvp .xbox-tab.accordion.xbox-main-tab > .xbox-tab-body > .xbox-accordion-title a span,
+#cvp .xbox-tab.accordion.xbox-tab-dark > .xbox-tab-body > .xbox-accordion-title a span {
+    padding: 10px 5px 10px 20px;
+}
+#cvp .xbox-tab.accordion.xbox-main-tab > .xbox-tab-body > .xbox-accordion-title.active,
+#cvp .xbox-tab.accordion.xbox-tab-dark > .xbox-tab-body > .xbox-accordion-title.active {
+    background: #323b4d;
+}
+#cvp .xbox-tab.accordion.xbox-main-tab > .xbox-tab-body > .xbox-accordion-title.active a,
+#cvp .xbox-tab.accordion.xbox-tab-dark > .xbox-tab-body > .xbox-accordion-title.active a {
+    color: #fff;
+}
+#cvp .xbox-tab.accordion.xbox-main-tab > .xbox-tab-body > .xbox-accordion-title.active span:after,
+#cvp .xbox-tab.accordion.xbox-tab-dark > .xbox-tab-body > .xbox-accordion-title.active span:after {
+    position: absolute;
+    bottom: auto;
+    left: 0;
+    top: 0;
+    content: ' ';
+    background: #3380da;
+    height: 100%;
+    width: 5px;
+}
+#cvp .xbox-tab.accordion.xbox-tab-left > .xbox-tab-header {
+    display: block;
+    padding-bottom: 0;
+}
+#cvp .xbox-tab.accordion.xbox-tab-left > .xbox-tab-body {
+    display: block;
+}
+#cvp .xbox-tabs .xbox-tabs-initialized {
+    display: block;
+}
+#cvp .xbox-section {
+    background: #fff;
+}
+#cvp .xbox-section .xbox-section-header {
+    position: relative;
+    padding: 15px 25px;
+    background: #f4f5f7;
+    border-bottom: 1px solid #e5e5e5;
+}
+#cvp .xbox-section .xbox-section-header .xbox-section-title {
+    display: inline-block;
+    margin: 0 !important;
+    padding: 0 20px 0 0 !important;
+    line-height: 1.4 !important;
+    font-size: 14px !important;
+    line-height: 15px !important;
+    color: #383d44;
+    font-weight: 400 !important;
+    background: 0 0;
+    cursor: default;
+    border: 0;
+    box-shadow: none;
+    text-shadow: none;
+}
+#cvp .xbox-section .xbox-section-header .xbox-section-title:hover {
+    color: #383d44;
+}
+#cvp .xbox-section .xbox-section-header .xbox-field-description {
+    display: inline-block;
+    line-height: 1.4;
+    color: #77869d;
+    font-size: 13px;
+    font-style: italic;
+}
+#cvp .xbox-section .xbox-toggle-icon {
+    position: absolute;
+    top: 12px;
+    right: 20px;
+    padding: 2px 6px 3px;
+    cursor: pointer;
+    opacity: 0.6;
+}
+#cvp .xbox-section .xbox-toggle-icon:hover {
+    opacity: 1;
+}
+#cvp .xbox-section.xbox-toggle-1.xbox-toggle-header .xbox-section-header {
+    cursor: pointer;
+}
+#cvp .xbox-section.xbox-toggle-1.xbox-toggle-header .xbox-section-header .xbox-section-title {
+    cursor: pointer;
+}
+#cvp .xbox-section.xbox-toggle-1.xbox-toggle-open .xbox-section-body {
+    display: block;
+}
+#cvp .xbox-section.xbox-toggle-1.xbox-toggle-close .xbox-section-body {
+    display: none;
+}
+#cvp .xbox-separator + .xbox-section .xbox-section-header {
+    border-top: 1px solid #e5e5e5;
+}
+#cvp .xbox.xbox-boxed {
+    background: #f8f8f8;
+}
+#cvp .xbox.xbox-boxed .xbox-row:not(.xbox-row-mixed) {
+    margin: -1px 20px;
+    background: #fff;
+}
+#cvp .xbox.xbox-boxed .xbox-row:not(.xbox-row-mixed):first-child {
+    margin-top: 20px;
+}
+#cvp .xbox.xbox-boxed .xbox-header + .xbox-row {
+    margin-top: 20px;
+}
+#cvp .xbox.xbox-boxed .xbox-tab:not(.xbox-main-tab) {
+    margin-top: 20px;
+}
+#cvp .xbox.xbox-boxed .xbox-tab .xbox-separator + .xbox-tab,
+#cvp .xbox.xbox-boxed .xbox-tab .xbox-tab:first-child {
+    margin-top: 0;
+}
+#cvp .xbox.xbox-boxed .xbox-tab:not(.xbox-main-tab) {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#cvp .xbox.xbox-boxed .xbox-tab .xbox-tab {
+    margin-left: 0;
+    margin-right: 0;
+}
+#cvp .xbox.xbox-boxed .xbox-tab .xbox-row:not(.xbox-row-mixed) {
+    margin-left: 0;
+    margin-right: 0;
+}
+#cvp .xbox.xbox-boxed .xbox-tab .xbox-row:not(.xbox-row-mixed):first-child {
+    margin-top: 0;
+    border-top: 0;
+}
+#cvp .xbox.xbox-boxed .xbox-row.xbox-type-group {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#cvp .xbox.xbox-boxed .xbox-row.xbox-type-group .xbox-group-item .xbox-row:not(.xbox-row-mixed) {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    border-left: 0;
+    border-right: 0;
+}
+#cvp .xbox.xbox-boxed .xbox-row.xbox-type-group .xbox-group-item .xbox-row:not(.xbox-row-mixed):first-child {
+    margin-top: -1px;
+    border-bottom: 1px solid #e5e5e5;
+}
+#cvp .xbox.xbox-boxed .xbox-row.xbox-type-group .xbox-group-item .xbox-row:not(.xbox-row-mixed):last-child {
+    margin-bottom: -1px;
+}
+#cvp .xbox.xbox-boxed .xbox-row.xbox-type-group .xbox-group-item > .xbox-tab {
+    margin-left: -1px;
+    margin-right: -1px;
+}
+#cvp .xbox.xbox-boxed .xbox-row.xbox-type-group .xbox-group-item > .xbox-tab:first-child {
+    margin-top: -1px;
+}
+#cvp .xbox.xbox-boxed .xbox-row.xbox-type-group .xbox-group-item > .xbox-tab .xbox-row:not(.xbox-row-mixed) {
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+}
+#cvp .xbox.xbox-boxed .xbox-tab .xbox-row.xbox-type-group {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#cvp .xbox.xbox-boxed .xbox-tab:not(.xbox-tab-light) {
+    border-top: 0;
+}
+#cvp .xbox.xbox-boxed .xbox-section {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+#cvp .xbox.xbox-boxed .xbox-section:first-child {
+    margin-top: 20px;
+}
+#cvp .xbox.xbox-boxed .xbox-row + .xbox-section {
+    margin-top: 20px;
+}
+#cvp .xbox.xbox-boxed .xbox-section .xbox-section-header {
+    border: 1px solid #e5e5e5;
+}
+#cvp .xbox.xbox-boxed .xbox-section .xbox-row:not(.xbox-row-mixed) {
+    margin-left: 0;
+    margin-right: 0;
+}
+#cvp .xbox.xbox-boxed .xbox-section .xbox-row:not(.xbox-row-mixed):first-child {
+    margin-top: 0;
+    border-top: 0;
+}
+#cvp .xbox.xbox-boxed .xbox-section .xbox-row:not(.xbox-row-mixed):last-child {
+    margin-bottom: 0;
+}
+#cvp .xbox.xbox-boxed .xbox-header + .xbox-section {
+    margin-top: 20px;
+}
+#cvp .xbox.xbox-boxed .xbox-tab .xbox-section {
+    margin-left: 0;
+    margin-right: 0;
+}
+#cvp .xbox.xbox-boxed .xbox-tab .xbox-section:first-child {
+    margin-top: 0;
+}
+#cvp .xbox.xbox-boxed .xbox-section .xbox-row.xbox-type-group {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.xbox-confirm {
+    display: none;
+    position: fixed;
+    top: 200px;
+    left: 50%;
+    z-index: 999999;
+    margin-left: -270px;
+    width: 540px;
+    max-width: 100%;
+    min-height: 100px;
+    background: #fff;
+    border-radius: 3px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.6;
+    color: #646c79;
+}
+@media only screen and (max-width: 768px) {
+    .xbox-confirm {
+        width: 80%;
+        margin-left: -40%;
+    }
+}
+@media only screen and (max-width: 468px) {
+    .xbox-confirm {
+        width: 90%;
+        margin-left: -45%;
+    }
+}
+.xbox-confirm.xbox-confirm-open {
+    display: block;
+    -webkit-animation: xbox_confirm_open 0.35s;
+    -moz-animation: xbox_confirm_open 0.35s;
+    -ms-animation: xbox_confirm_open 0.35s;
+}
+.xbox-confirm.xbox-confirm-close {
+    -webkit-animation: xbox_confirm_close 0.35s;
+    -moz-animation: xbox_confirm_close 0.35s;
+    -ms-animation: xbox_confirm_close 0.35s;
+}
+.xbox-confirm .xbox-confirm-header {
+    padding: 10px 20px;
+    border-bottom: 1px solid #e5e5e5;
+    background: #eef0f3;
+}
+.xbox-confirm .xbox-confirm-header h3 {
+    font-weight: 700;
+    font-size: 20px;
+    font-family: inherit;
+    color: #424e66;
+    opacity: 0.9;
+}
+.xbox-confirm .xbox-confirm-close-btn {
+    position: absolute;
+    top: 13px;
+    right: 20px;
+    z-index: 1000000;
+    cursor: pointer;
+    font-size: 22px;
+    opacity: 0.7;
+    color: #424e66;
+}
+.xbox-confirm .xbox-confirm-close-btn:hover {
+    opacity: 1;
+}
+.xbox-confirm .xbox-confirm-content {
+    padding: 20px;
+    font-size: 14px;
+}
+.xbox-confirm .xbox-confirm-footer {
+    padding: 20px;
+}
+.xbox-confirm .xbox-btn {
+    border-radius: 3px;
+}
+.xbox-confirm .xbox-cancel-btn,
+.xbox-confirm .xbox-confirm-btn {
+    margin: 0 10px;
+}
+.xbox-confirm .xbox-cancel-btn i {
+    opacity: 0.7;
+}
+.xbox-confirm-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999998;
+    width: 100%;
+    height: 100%;
+    background: #101319;
+    opacity: 0.85;
+}
+@-webkit-keyframes xbox_confirm_open {
+    from {
+        -webkit-transform: scale(0.5);
+        opacity: 0;
+    }
+    56% {
+        -webkit-transform: scale(1.1);
+        opacity: 0.7;
+    }
+    to {
+        -webkit-transform: scale(1);
+        opacity: 1;
+    }
+}
+@-webkit-keyframes xbox_confirm_close {
+    from {
+        -webkit-transform: scale(1);
+        opacity: 1;
+    }
+    40% {
+        -webkit-transform: scale(1.1);
+        opacity: 1;
+    }
+    to {
+        -webkit-transform: scale(0.5);
+        opacity: 0;
+    }
+}
+@-moz-keyframes xbox_confirm_open {
+    from {
+        -moz-transform: scale(0.5);
+        opacity: 0;
+    }
+    56% {
+        -moz-transform: scale(1.1);
+        opacity: 0.7;
+    }
+    to {
+        -moz-transform: scale(1);
+        opacity: 1;
+    }
+}
+@-moz-keyframes xbox_confirm_close {
+    from {
+        -moz-transform: scale(1);
+        opacity: 1;
+    }
+    40% {
+        -moz-transform: scale(1.1);
+        opacity: 1;
+    }
+    to {
+        -moz-transform: scale(0.5);
+        opacity: 0;
+    }
+}
+@-ms-keyframes xbox_confirm_open {
+    from {
+        -ms-transform: scale(0.5);
+        opacity: 0;
+    }
+    56% {
+        -ms-transform: scale(1.1);
+        opacity: 0.7;
+    }
+    to {
+        -ms-transform: scale(1);
+        opacity: 1;
+    }
+}
+@-ms-keyframes xbox_confirm_close {
+    from {
+        -ms-transform: scale(1);
+        opacity: 1;
+    }
+    40% {
+        -ms-transform: scale(1.1);
+        opacity: 1;
+    }
+    to {
+        -ms-transform: scale(0.5);
+        opacity: 0;
+    }
+}
+#cvp .xbox-btn {
+    display: inline-block;
+    margin: 0 5px 0 0;
+    padding: 8px 18px;
+    border: none;
+    line-height: 16px;
+    cursor: pointer;
+    outline: 0;
+    color: #363a41;
+    background: #e5e5e5;
+    font-size: 13px;
+    vertical-align: baseline;
+    text-transform: none;
+    text-shadow: none;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: none;
+    text-shadow: none;
+    transition: all 0.25s ease-in-out;
+}
+#cvp .xbox-btn:hover {
+    color: #2a2e33;
+    background: #bbc3ce;
+}
+#cvp .xbox-btn:active,
+#cvp .xbox-btn:focus {
+    color: #23262b;
+    background: #afb8c6;
+}
+#cvp .xbox-btn.xbox-btn-tiny {
+    font-size: 10px;
+    padding: 5px 12px;
+}
+#cvp .xbox-btn.xbox-btn-small {
+    font-size: 11px;
+    padding: 6px 14px;
+}
+#cvp .xbox-btn.xbox-btn-medium {
+    font-size: 13px;
+    padding: 8px 16px;
+}
+#cvp .xbox-btn.xbox-btn-large {
+    font-size: 16px;
+    padding: 11px 22px;
+}
+#cvp .xbox-btn.xbox-btn-big {
+    font-size: 20px;
+    padding: 15px 25px;
+}
+#cvp .xbox-btn.xbox-btn-huge {
+    font-size: 24px;
+    padding: 19px 32px;
+}
+#cvp .xbox-btn.xbox-btn-blue {
+    color: #fff;
+    background: #3380da;
+}
+#cvp .xbox-btn.xbox-btn-blue:hover {
+    background: #2676d2;
+}
+#cvp .xbox-btn.xbox-btn-blue:active,
+#cvp .xbox-btn.xbox-btn-blue:focus {
+    background: #2571ca;
+}
+#cvp .xbox-btn.xbox-btn-lightblue {
+    color: #fff;
+    background: #1694de;
+}
+#cvp .xbox-btn.xbox-btn-lightblue:hover {
+    background: #1488cb;
+}
+#cvp .xbox-btn.xbox-btn-lightblue:active,
+#cvp .xbox-btn.xbox-btn-lightblue:focus {
+    background: #1381c2;
+}
+#cvp .xbox-btn.xbox-btn-green {
+    color: #fff;
+    background: #00aa8c;
+}
+#cvp .xbox-btn.xbox-btn-green:hover {
+    background: #00967b;
+}
+#cvp .xbox-btn.xbox-btn-green:active,
+#cvp .xbox-btn.xbox-btn-green:focus {
+    background: #008b73;
+}
+#cvp .xbox-btn.xbox-btn-teal {
+    color: #fff;
+    background: #dd3e88;
+}
+#cvp .xbox-btn.xbox-btn-teal:hover {
+    background: #dd3e88;
+}
+#cvp .xbox-btn.xbox-btn-teal:active,
+#cvp .xbox-btn.xbox-btn-teal:focus {
+    background: #009690;
+}
+#cvp .xbox-btn.xbox-btn-red {
+    color: #fff;
+    background: #e56464;
+}
+#cvp .xbox-btn.xbox-btn-red:hover {
+    background: #e25353;
+}
+#cvp .xbox-btn.xbox-btn-red:active,
+#cvp .xbox-btn.xbox-btn-red:focus {
+    background: #e14a4a;
+}
+#cvp .xbox-btn.xbox-btn-pink {
+    color: #fff !important;
+    background: linear-gradient(45deg, #932493 0%, #dd3e88 100%);
+}
+#cvp .xbox-btn.xbox-btn-pink:hover {
+    background: linear-gradient(45deg, #dd3e88 0%, #932493 100%);
+}
+#cvp .xbox-btn.xbox-btn-pink:active,
+#cvp .xbox-btn.xbox-btn-pink:focus {
+    background: linear-gradient(45deg, #dd3e88 0%, #932493 100%);
+}
+#cvp .xbox-btn.xbox-btn-dark {
+    color: #fff;
+    background: #2e3647;
+}
+#cvp .xbox-btn.xbox-btn-dark:hover {
+    background: #262d3b;
+}
+#cvp .xbox-btn.xbox-btn-dark:active,
+#cvp .xbox-btn.xbox-btn-dark:focus {
+    background: #222834;
+}
+#cvp .xbox-btn.xbox-btn-purple {
+    color: #fff;
+    background: #6c74e5;
+}
+#cvp .xbox-btn.xbox-btn-purple:hover {
+    background: #5b64e2;
+}
+#cvp .xbox-btn.xbox-btn-purple:active,
+#cvp .xbox-btn.xbox-btn-purple:focus {
+    background: #525be0;
+}
+#cvp .xbox-btn.xbox-btn-bluepurple {
+    color: #fff;
+    background: #5274eb;
+}
+#cvp .xbox-btn.xbox-btn-bluepurple:hover {
+    background: #4065e9;
+}
+#cvp .xbox-btn.xbox-btn-bluepurple:active,
+#cvp .xbox-btn.xbox-btn-bluepurple:focus {
+    background: #375ee8;
+}
+#cvp .xbox-btn.xbox-btn-yellow {
+    color: #fff;
+    background: #fc9f2e;
+}
+#cvp .xbox-btn.xbox-btn-yellow:hover {
+    background: #fc961a;
+}
+#cvp .xbox-btn.xbox-btn-yellow:active,
+#cvp .xbox-btn.xbox-btn-yellow:focus {
+    background: #fc9110;
+}
+#cvp .xbox-btn.xbox-btn-orange {
+    color: #fff;
+    background: #f86a5e;
+}
+#cvp .xbox-btn.xbox-btn-orange:hover {
+    background: #f7584a;
+}
+#cvp .xbox-btn.xbox-btn-orange:active,
+#cvp .xbox-btn.xbox-btn-orange:focus {
+    background: #f74f41;
+}
+#cvp .xbox-btn > .xbox-icon {
+    opacity: 0.9;
+    margin-right: 4px;
+}
+#cvp .xbox-btn.xbox-btn-icon > .xbox-icon {
+    vertical-align: baseline;
+    margin: 0;
+}
+#cvp .xbox-btn.xbox-btn-iconize {
+    width: 16px;
+    height: 16px;
+    padding: 0 !important;
+    margin-right: 2px;
+    font-size: 16px;
+    line-height: 1;
+    background: 0 0 !important;
+    vertical-align: middle;
+    color: #8f9bae;
+}
+#cvp .xbox-btn.xbox-btn-iconize:hover {
+    color: #718199;
+}
+#cvp .xbox-btn.xbox-btn-iconize:active,
+#cvp .xbox-btn.xbox-btn-iconize:focus {
+    color: #67778f;
+}
+#cvp .xbox-btn.xbox-btn-iconize > .xbox-icon {
+    margin: 0 0 0 -1px;
+    opacity: 1;
+}
+#cvp .xbox-btn.xbox-btn-iconize.xbox-btn-tiny {
+    width: 14px;
+    height: 14px;
+    font-size: 14px;
+}
+#cvp .xbox-btn.xbox-btn-iconize.xbox-btn-small {
+    width: 16px;
+    height: 16px;
+    font-size: 16px;
+}
+#cvp .xbox-btn.xbox-btn-iconize.xbox-btn-medium {
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+}
+#cvp .xbox-btn.xbox-btn-iconize.xbox-btn-large {
+    width: 24px;
+    height: 24px;
+    font-size: 24px;
+}
+#cvp .xbox-btn.xbox-btn-iconize.xbox-btn-big {
+    width: 28px;
+    height: 28px;
+    font-size: 28px;
+}
+#cvp .xbox-btn.xbox-btn-iconize.xbox-btn-blue {
+    color: #3380da;
+}
+#cvp .xbox-btn.xbox-btn-iconize.xbox-btn-blue:hover {
+    color: #246ec5;
+}
+#cvp .xbox-btn.xbox-btn-iconize.xbox-btn-blue:active,
+#cvp .xbox-btn.xbox-btn-iconize.xbox-btn-blue:focus {
+    color: #226abd;
+}
+#cvp .xbox-btn.xbox-btn-iconize.xbox-btn-lightblue {
+    color: #1694de;
+}
+#cvp .xbox-btn.xbox-btn-iconize.xbox-btn-lightblue:hover {
+    color: #137ebe;
+}
+#cvp .xbox-btn.xbox-btn-iconize.xbox-btn-lightblue:active,
+#cvp .xbox-btn.xbox-btn-iconize.xbox-btn-lightblue:focus {
+    color: #1278b4;
+}
+#cvp .xbox-btn.xbox-btn-iconize.xbox-btn-green {
+    color: #00aa8c;
+}
+#cvp .xbox-btn.xbox-btn-iconize.xbox-btn-green:hover {
+    color: #00866f;
+}
+#cvp .xbox-btn.xbox-btn-iconize.xbox-btn-green:active,
+#cvp .xbox-btn.xbox-btn-iconize.xbox-btn-green:focus {
+    color: #007c66;
+}
+#cvp .xbox-btn.xbox-btn-iconize.xbox-btn-teal {
+    color: #00b5ad;
+}
+#cvp .xbox-btn.xbox-btn-iconize.xbox-btn-teal:hover {
+    color: #00918b;
+}
+#cvp .xbox-btn.xbox-btn-iconize.xbox-btn-teal:active,
+#cvp .xbox-btn.xbox-btn-iconize.xbox-btn-teal:focus {
+    color: #008781;
+}
+#cvp .xbox-btn.xbox-btn-iconize.xbox-btn-red {
+    color: #e56464;
+}
+#cvp .xbox-btn.xbox-btn-iconize.xbox-btn-red:hover {
+    color: #e04545;
+}
+#cvp .xbox-btn.xbox-btn-iconize.xbox-btn-red:active,
+#cvp .xbox-btn.xbox-btn-iconize.xbox-btn-red:focus {
+    color: #de3d3d;
+}
+#cvp .xbox-btn.xbox-btn-iconize.xbox-btn-pink {
+    color: #dd3e88;
+}
+#cvp .xbox-btn.xbox-btn-iconize.xbox-btn-pink:hover {
+    color: #f63f7f;
+}
+#cvp .xbox-btn.xbox-btn-iconize.xbox-btn-pink:active,
+#cvp .xbox-btn.xbox-btn-iconize.xbox-btn-pink:focus {
+    color: #f63579;
+}
+#cvp .xbox-btn.xbox-btn-iconize.xbox-btn-dark {
+    color: #2e3647;
+}
+#cvp .xbox-btn.xbox-btn-iconize.xbox-btn-dark:hover {
+    color: #202631;
+}
+#cvp .xbox-btn.xbox-btn-iconize.xbox-btn-dark:active,
+#cvp .xbox-btn.xbox-btn-iconize.xbox-btn-dark:focus {
+    color: #1c212b;
+}
+#cvp .xbox-btn.xbox-btn-iconize.xbox-btn-purple {
+    color: #6c74e5;
+}
+#cvp .xbox-btn.xbox-btn-iconize.xbox-btn-purple:hover {
+    color: #4e57e0;
+}
+#cvp .xbox-btn.xbox-btn-iconize.xbox-btn-purple:active,
+#cvp .xbox-btn.xbox-btn-iconize.xbox-btn-purple:focus {
+    color: #454fde;
+}
+#cvp .xbox-btn.xbox-btn-iconize.xbox-btn-bluepurple {
+    color: #5274eb;
+}
+#cvp .xbox-btn.xbox-btn-iconize.xbox-btn-bluepurple:hover {
+    color: #325ae7;
+}
+#cvp .xbox-btn.xbox-btn-iconize.xbox-btn-bluepurple:active,
+#cvp .xbox-btn.xbox-btn-iconize.xbox-btn-bluepurple:focus {
+    color: #2953e6;
+}
+#cvp .xbox-btn.xbox-btn-iconize.xbox-btn-yellow {
+    color: #fc9f2e;
+}
+#cvp .xbox-btn.xbox-btn-iconize.xbox-btn-yellow:hover {
+    color: #fb8f0b;
+}
+#cvp .xbox-btn.xbox-btn-iconize.xbox-btn-yellow:active,
+#cvp .xbox-btn.xbox-btn-iconize.xbox-btn-yellow:focus {
+    color: #f98a04;
+}
+#cvp .xbox-btn.xbox-btn-iconize.xbox-btn-orange {
+    color: #f86a5e;
+}
+#cvp .xbox-btn.xbox-btn-iconize.xbox-btn-orange:hover {
+    color: #f74a3c;
+}
+#cvp .xbox-btn.xbox-btn-iconize.xbox-btn-orange:active,
+#cvp .xbox-btn.xbox-btn-iconize.xbox-btn-orange:focus {
+    color: #f64132;
+}
+#cvp .xbox-btn.xbox-btn-input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 28px;
+    margin: 0;
+    transition: all 0.25s ease-in-out;
+}
+#cvp .xbox-btn.xbox-btn-input i {
+    font-size: 1.2em;
+}
+#cvp .xbox-btn[disabled] {
+    opacity: 0.5 !important;
+    pointer-events: none !important;
+}
+#cvp .tipso_style {
+    cursor: default;
+    border: 0;
+}
+#cvp .tipso_bubble {
+    background: rgba(46, 54, 71, 0.9) !important;
+    border-radius: 3px;
+    line-height: 1.4;
+    font-size: 13px;
+    width: auto !important;
+    max-width: 300px !important;
+    color: #fff !important;
+}
+#cvp .tipso_bubble .tipso_title {
+    margin: 0;
+    padding: 0;
+    border-radius: 3px 3px 0 0;
+    background: rgba(34, 40, 52, 0.9) !important;
+}
+#cvp .tipso_bubble .tipso_title > h3 {
+    margin: 0 !important;
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 400;
+    padding: 4px 12px;
+    color: inherit;
+    border-bottom: 1px solid #448bdd;
+}
+#cvp .tipso_bubble .tipso_content {
+    padding: 6px 12px 7px;
+}
+#cvp .tipso_bubble .tipso_arrow {
+    border-width: 5px;
+}
+#cvp .tipso_bubble.top .tipso_arrow {
+    border-top-color: rgba(46, 54, 71, 0.9) !important;
+    margin-left: -5px !important;
+}
+#cvp .tipso_bubble.left .tipso_arrow {
+    border-left-color: rgba(46, 54, 71, 0.9) !important;
+    margin-top: -5px !important;
+}
+#cvp .tipso_bubble.right .tipso_arrow {
+    border-right-color: rgba(46, 54, 71, 0.9) !important;
+    margin-top: -5px !important;
+}
+#cvp .tipso_bubble.bottom .tipso_arrow {
+    border-bottom-color: rgba(46, 54, 71, 0.9) !important;
+    margin-left: -5px !important;
+}
+#cvp .xbox .ui.dropdown.selection {
+    border: 2px solid #e5e5e5;
+    min-height: 28px;
+    min-width: 180px;
+    padding: 4px 24px 4px 12px;
+    line-height: 16px;
+    margin: 0;
+    color: #646c79;
+    background: #fff;
+}
+#cvp .xbox .ui.dropdown.selection:focus {
+    border: 2px solid #e5e5e5;
+}
+#cvp .xbox .ui.dropdown.selection:hover {
+    border-color: #b8c0cc;
+}
+#cvp .xbox .ui.dropdown.selection.active {
+    border-color: #448bdd;
+}
+#cvp .xbox .ui.dropdown.selection.active:hover {
+    border-color: #448bdd;
+}
+#cvp .xbox .ui.dropdown.selection.active .menu {
+    border-color: #448bdd !important;
+}
+#cvp .xbox .ui.dropdown.selection > .delete.icon,
+#cvp .xbox .ui.dropdown.selection > .dropdown.icon,
+#cvp .xbox .ui.dropdown.selection > .search.icon {
+    top: 0;
+    right: 8px;
+    margin: 0;
+    padding: 0;
+    line-height: 24px;
+    font-size: 15px;
+    color: #95a1b3;
+}
+#cvp .xbox .ui.dropdown.selection .menu {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+#cvp .xbox .ui.dropdown.selection .menu .item {
+    padding: 6px 12px !important;
+}
+#cvp .xbox .ui.dropdown.selection .text {
+    margin: 0;
+}
+#cvp .xbox .ui.dropdown.selection .text > img.image {
+    max-height: 16px;
+    margin-top: -3px;
+    margin-right: 8px;
+}
+#cvp .xbox .ui.dropdown.selection .text > i {
+    margin-right: 10px;
+}
+#cvp .xbox .ui.dropdown.selection.search > input.search {
+    padding: 4px 24px 4px 12px;
+    margin: 0;
+    color: #646c79;
+}
+#cvp .xbox .ui.dropdown.selection.search > .text {
+    margin: 0;
+    line-height: 16px;
+}
+#cvp .xbox .ui.dropdown.selection.multiple > input.search {
+    padding: 0;
+}
+#cvp .xbox .ui.dropdown.selection .ui.label {
+    padding: 3px 6px;
+    font-size: 12px;
+    line-height: 14px;
+    color: inherit;
+}
+#cvp .xbox .ui.dropdown.selection .ui.label:hover {
+    color: #2e3647;
+}
+#cvp .xbox .ui.dropdown.selection .ui.label img {
+    max-height: 12px;
+    width: auto;
+    vertical-align: middle;
+}
+#cvp .xbox .ui.dropdown.selection .ui.label i {
+    vertical-align: middle;
+}
+#cvp .xbox .ui.dropdown.selection .menu {
+    border: 2px solid #e5e5e5;
+    margin: 0 -2px;
+    min-width: calc(100% + 4px);
+    width: calc(100% + 4px);
+    background: #fff;
+    padding-right: 2px;
+}
+#cvp .xbox .ui.dropdown.selection .menu .xbox-ui-inner-menu {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+#cvp .xbox .ui.dropdown.selection .menu .item {
+    line-height: 14px;
+    font-size: 13px;
+    color: #646c79;
+    border-top: 1px solid transparent;
+    cursor: pointer;
+}
+#cvp .xbox .ui.dropdown.selection .menu .item:hover {
+    background: #e8eaee;
+}
+#cvp .xbox .ui.dropdown.selection .menu .item > img {
+    max-height: 16px;
+    margin-right: 8px;
+    width: auto;
+    vertical-align: middle;
+    display: inline-block;
+}
+#cvp .xbox .ui.dropdown.selection .menu .item > i {
+    margin-right: 10px;
+    width: 14px;
+    text-align: center;
+}
+#cvp .xbox .ui.dropdown.selection .menu .active.item,
+#cvp .xbox .ui.dropdown.selection .menu .selected.item {
+    color: #646c79;
+    background: 0 0;
+    font-weight: 700;
+}
+#cvp .xbox .ui.dropdown.selection .menu .divider {
+    border-top: 1px solid #e2e5ea;
+    height: 0;
+    margin: 5px 0;
+}
+#cvp .xbox .ui.dropdown.selection .menu .header {
+    margin: 0 0 2px;
+    padding: 6px 12px !important;
+    color: #646c79;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+#cvp .xbox .ui.dropdown.selection .menu .header i {
+    opacity: 0.8;
+    margin-right: 5px;
+}
+@media only screen and (max-width: 767px) {
+    #cvp .xbox .ui.selection.dropdown .xbox-ui-inner-menu {
+        max-height: 7.01428571rem;
+    }
+}
+@media only screen and (min-width: 768px) {
+    #cvp .xbox .ui.selection.dropdown .xbox-ui-inner-menu {
+        max-height: 9.68571429rem;
+    }
+}
+@media only screen and (min-width: 992px) {
+    #cvp .xbox .ui.selection.dropdown .xbox-ui-inner-menu {
+        max-height: 15.02857143rem;
+    }
+}
+@media only screen and (min-width: 1920px) {
+    #cvp .xbox .ui.selection.dropdown .xbox-ui-inner-menu {
+        max-height: 20.37142857rem;
+    }
+}
+#cvp .xbox .ui.label {
+    cursor: pointer;
+    font-size: 13px;
+    line-height: 16px;
+    vertical-align: top;
+}
+#cvp .xbox .ui.label:hover {
+    background: #e8eaee;
+    color: #41474f;
+}
+#cvp .xbox .ui.label.active {
+    background: #dfe2e8;
+    color: #3a3f47;
+}
+#cvp .xbox .ui.label > .close.icon,
+#cvp .xbox .ui.label > .delete.icon {
+    cursor: pointer;
+    margin-right: 0;
+    margin-left: 8px;
+    font-size: 13px;
+    opacity: 0.5;
+    -webkit-transition: background 0.1s ease;
+    transition: background 0.1s ease;
+}
+#cvp .xbox .ui.label > .close.icon:hover,
+#cvp .xbox .ui.label > .delete.icon:hover {
+    color: rgba(0, 0, 0, 0.8);
+    opacity: 0.8;
+}
+#cvp .xbox .ui.label .flag {
+    font-size: 10px;
+}
+#cvp .xbox input[type],
+#cvp .xbox input[type]:focus,
+#cvp .xbox select,
+#cvp .xbox select:focus,
+#cvp .xbox textarea,
+#cvp .xbox textarea:focus {
+    box-shadow: none;
+}
+#cvp .xbox label {
+    cursor: pointer;
+    color: #646c79;
+    display: inline-block;
+    font-weight: 400;
+}
+#cvp .xbox .xbox-field-id-duration select,
+#cvp .xbox input[type='number'],
+#cvp .xbox input[type='text'],
+#cvp .xbox textarea {
+    height: 28px;
+    width: 100%;
+    padding: 0 12px;
+    margin: 0;
+    box-sizing: border-box;
+    color: #646c79;
+    border: 2px solid #e5e5e5;
+    background: #fff;
+    font-size: 13px;
+    transition: all 0.25s ease-in-out;
+    outline: none;
+}
+#cvp .xbox .xbox-field-id-duration select {
+    width: 60px;
+    cursor: pointer;
+    padding: 0 6px;
+}
+#cvp .xbox input[type='number']:hover,
+#cvp .xbox input[type='text']:hover,
+#cvp .xbox textarea:hover {
+    border-color: #b8c0cc;
+}
+#cvp .xbox input[type='number']:focus,
+#cvp .xbox input[type='text']:focus,
+#cvp .xbox textarea:focus {
+    border-color: #448bdd;
+}
+#cvp .xbox input[type='checkbox'],
+#cvp .xbox input[type='radio'] {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    margin: -3px 5px 0 0;
+    vertical-align: middle;
+    display: inline-block;
+}
+#cvp .xbox textarea {
+    height: auto;
+    min-height: 60px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    line-height: 1.5;
+}
+#cvp .xbox .xbox-radiochecks .xbox-item-image-selector,
+#cvp .xbox .xbox-radiochecks > label {
+    display: inline-block;
+    margin: 0 15px 8px 0;
+    font-size: 13px;
+    line-height: 1.6;
+}
+#cvp .xbox .xbox-radiochecks .xbox-item-image-selector:last-child,
+#cvp .xbox .xbox-radiochecks > label:last-child {
+    margin-right: 0;
+}
+#cvp .xbox .xbox-radiochecks .xbox-item-image-selector > label,
+#cvp .xbox .xbox-radiochecks > label > label {
+    display: block;
+}
+#cvp .xbox .xbox-radiochecks.xbox-vertical .xbox-item-image-selector,
+#cvp .xbox .xbox-radiochecks.xbox-vertical > label {
+    display: block;
+}
+#cvp .xbox .xbox-radiochecks .xbox-item-desc {
+    padding: 6px 0;
+    line-height: 1.6;
+    text-align: center;
+}
+#cvp .xbox .xbox-radiochecks .xbox-item-desc-title {
+    font-weight: 700;
+}
+#cvp .xbox .xbox-radiochecks .xbox-item-desc-content {
+    padding-top: 8px;
+}
+#cvp .xbox .xbox-type-title .xbox-content {
+    padding-left: 25px;
+}
+#cvp .xbox .xbox-type-title .xbox-content .xbox-field-title {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 15px !important;
+    line-height: 1.4 !important;
+    color: #545b65;
+    display: inline-block;
+    font-weight: 600 !important;
+    background: 0 0;
+    cursor: default;
+    border: 0;
+    box-shadow: none;
+    text-shadow: none;
+}
+#cvp .xbox .xbox-type-title .xbox-content .xbox-field-title:hover {
+    color: #545b65;
+}
+#cvp .xbox .xbox-type-code_editor.xbox-row-mixed:not(.xbox-grid),
+#cvp .xbox .xbox-type-export.xbox-row-mixed:not(.xbox-grid),
+#cvp .xbox .xbox-type-file.xbox-row-mixed:not(.xbox-grid),
+#cvp .xbox .xbox-type-image.xbox-row-mixed:not(.xbox-grid),
+#cvp .xbox .xbox-type-import.xbox-row-mixed:not(.xbox-grid),
+#cvp .xbox .xbox-type-oembed.xbox-row-mixed:not(.xbox-grid),
+#cvp .xbox .xbox-type-text.xbox-row-mixed:not(.xbox-grid),
+#cvp .xbox .xbox-type-textarea.xbox-row-mixed:not(.xbox-grid),
+#cvp .xbox .xbox-type-wp_editor.xbox-row-mixed:not(.xbox-grid) {
+    width: 100%;
+}
+#cvp .xbox .xbox-type-code_editor .xbox-field,
+#cvp .xbox .xbox-type-export .xbox-field,
+#cvp .xbox .xbox-type-file .xbox-field,
+#cvp .xbox .xbox-type-image .xbox-field,
+#cvp .xbox .xbox-type-import .xbox-field,
+#cvp .xbox .xbox-type-oembed .xbox-field,
+#cvp .xbox .xbox-type-text .xbox-field,
+#cvp .xbox .xbox-type-textarea .xbox-field,
+#cvp .xbox .xbox-type-wp_editor .xbox-field {
+    display: block !important;
+}
+#cvp .xbox .xbox-type-code_editor .xbox-code-editor {
+    position: relative;
+    height: 200px;
+}
+#cvp .xbox .xbox-type-code_editor .xbox-code-editor * {
+    font-size: 15px;
+}
+#cvp .xbox .xbox-type-code_editor .xbox-code-editor + textarea {
+    display: none !important;
+}
+#cvp .xbox .xbox-type-wp_editor .mce-edit-area {
+    margin-right: 1px;
+}
+#cvp .xbox .xbox-type-wp_editor .xbox-repeatable-wrap .xbox-repeatable-item {
+    margin-bottom: 30px;
+}
+#cvp .xbox .xbox-type-select .ui.selection.dropdown {
+    transition: border-color 0.25s ease-in-out;
+}
+#cvp .xbox .xbox-type-select .xbox-grid .ui.dropdown.selection,
+#cvp .xbox .xbox-type-select.xbox-grid .ui.dropdown.selection {
+    max-width: 100%;
+    min-width: 100%;
+}
+#cvp .xbox .xbox-type-checkbox .xbox-content,
+#cvp .xbox .xbox-type-radio .xbox-content {
+    padding-bottom: 7px;
+}
+#cvp .xbox .xbox-type-import .xbox-field .iradio_flat-blue,
+#cvp .xbox .xbox-type-radio .xbox-field .iradio_flat-blue {
+    margin: 0 5px 3px 0;
+    transform: scale(0.9);
+    background-image: url(../img/icheck/blue.png);
+}
+#cvp .xbox .xbox-type-checkbox .xbox-field .icheckbox_flat-blue {
+    margin: 0 5px 3px 0;
+    transform: scale(0.9);
+    background-image: url(../img/icheck/blue.png);
+}
+#cvp .xbox .xbox-type-image_selector .xbox-content,
+#cvp .xbox .xbox-type-import .xbox-content {
+    padding-bottom: 5px;
+}
+#cvp .xbox .xbox-type-image_selector .xbox-radiochecks > .xbox-item-image-selector,
+#cvp .xbox .xbox-type-import .xbox-radiochecks > .xbox-item-image-selector {
+    margin-bottom: 15px;
+}
+#cvp .xbox .xbox-type-image_selector .xbox-radiochecks > .xbox-item-image-selector label span,
+#cvp .xbox .xbox-type-import .xbox-radiochecks > .xbox-item-image-selector label span {
+    display: none;
+}
+#cvp .xbox .xbox-type-image_selector .xbox-radiochecks > .xbox-item-image-selector label.no-image span,
+#cvp .xbox .xbox-type-import .xbox-radiochecks > .xbox-item-image-selector label.no-image span {
+    display: inline-block;
+}
+#cvp .xbox .xbox-type-image_selector .xbox-radiochecks img,
+#cvp .xbox .xbox-type-import .xbox-radiochecks img {
+    display: block;
+    max-width: 100px;
+    height: auto;
+    border: 3px solid #e5e5e5;
+    font-size: 0;
+    line-height: 0;
+    transition: all 0.15s ease-in-out;
+    padding: 5px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+#cvp .xbox .xbox-type-image_selector .xbox-radiochecks img:hover,
+#cvp .xbox .xbox-type-import .xbox-radiochecks img:hover {
+    border-color: #b8c0cc;
+}
+#cvp .xbox .xbox-type-image_selector .xbox-radiochecks img.xbox-active,
+#cvp .xbox .xbox-type-import .xbox-radiochecks img.xbox-active {
+    border-color: #448bdd;
+}
+#cvp .xbox .xbox-type-import .xbox-content {
+    padding-bottom: 15px;
+}
+#cvp .xbox .xbox-type-import .xbox-wrap-input-file,
+#cvp .xbox .xbox-type-import .xbox-wrap-input-url {
+    display: none;
+    margin: 15px 0;
+}
+#cvp .xbox .xbox-type-import .xbox-block {
+    display: block;
+}
+#cvp .xbox .xbox-type-export textarea {
+    min-height: 300px;
+    margin-bottom: 15px;
+}
+#cvp .xbox .xbox-type-image .xbox-element-text {
+    margin-bottom: 15px;
+}
+#cvp .xbox-remove-preview {
+    display: none;
+}
+#cvp .xbox-remove-preview {
+    display: inline-block;
+}
+#cvp .xbox .xbox-type-image .xbox-wrap-image .xbox-preview-item {
+    margin-top: 0;
+    cursor: default;
+}
+#cvp .xbox .xbox-type-image .xbox-wrap-image img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+#cvp .xbox .xbox-type-number .xbox-unit {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 28px;
+    padding: 0;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 700;
+    color: #4f5c6e;
+    line-height: 28px;
+    background: #e5e5e5;
+    text-transform: uppercase;
+    transition: all 0.25s ease-in-out;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+#cvp .xbox .xbox-field-id-duration .xbox-unit {
+    width: 0;
+    height: 28px;
+    padding: 6px;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 700;
+    color: #4f5c6e;
+    line-height: 28px;
+    background: #e5e5e5;
+    text-transform: uppercase;
+    transition: all 0.25s ease-in-out;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    position: relative;
+    left: -4px;
+    top: 1px;
+}
+#cvp .xbox .xbox-type-number .xbox-has-unit {
+    overflow: hidden;
+}
+#cvp .xbox .xbox-type-number .xbox-has-unit .xbox-unit {
+    width: auto;
+    padding: 0 6px;
+}
+#cvp .xbox .xbox-type-number .xbox-has-unit input {
+    padding-right: 32px;
+}
+#cvp .xbox .xbox-type-number .xbox-has-unit.xbox-has-spinner input {
+    padding-right: 40px;
+}
+#cvp .xbox .xbox-type-number .xbox-has-unit input:hover + .xbox-unit {
+    background: #b8c0cc;
+}
+#cvp .xbox .xbox-type-number .xbox-has-unit input:focus + .xbox-unit {
+    background: #448bdd;
+    color: #fff;
+}
+#cvp .xbox .xbox-type-number a.xbox-spinner-control {
+    display: none;
+    position: absolute;
+    right: 6px;
+    overflow: hidden;
+    width: 14px;
+    height: 13px;
+    font-size: 15px;
+    line-height: 13px;
+    text-align: center;
+    color: #95a1b3;
+}
+#cvp .xbox .xbox-type-number a.xbox-spinner-control:hover {
+    color: #5a687d;
+}
+#cvp .xbox .xbox-type-number a.xbox-spinner-control[data-spin='up'] {
+    top: 1px;
+}
+#cvp .xbox .xbox-type-number a.xbox-spinner-control[data-spin='down'] {
+    bottom: 2px;
+}
+#cvp .xbox .xbox-type-number a.xbox-spinner-control i {
+    width: 1em;
+    margin: 0;
+    line-height: inherit;
+}
+#cvp .xbox .xbox-type-number .xbox-has-spinner {
+    position: relative;
+}
+#cvp .xbox .xbox-type-number .xbox-has-spinner.xbox-show-spinner a.xbox-spinner-control {
+    display: inline-block;
+}
+#cvp .xbox .xbox-type-number .xbox-has-spinner input {
+    padding-right: 18px;
+}
+#cvp .xbox .xbox-type-number .xbox-has-spinner:hover a.xbox-spinner-control {
+    display: inline-block;
+}
+#cvp .xbox .xbox-type-number .xbox-has-spinner.xbox-has-unit a.xbox-spinner-control {
+    left: -16px;
+}
+#cvp .xbox .xbox-type-number .xbox-grid input,
+#cvp .xbox .xbox-type-number.xbox-grid input {
+    width: 100%;
+}
+#cvp .xbox .xbox-type-number .xbox-repeatable-wrap {
+    display: inline-block;
+}
+#cvp .cp-color-picker {
+    z-index: 10;
+}
+#cvp .xbox .xbox-type-colorpicker .xbox-field {
+    position: relative;
+}
+#cvp .xbox .xbox-type-colorpicker .xbox-field input {
+    width: 108px;
+    padding-right: 26px;
+}
+#cvp .xbox .xbox-type-colorpicker .xbox-field.xbox-has-alpha input {
+    width: 190px;
+}
+#cvp .xbox .xbox-type-colorpicker .xbox-colorpicker-preview {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    width: 20px;
+    height: 20px;
+    background: url(../img/alpha.png) repeat;
+    cursor: pointer;
+}
+#cvp .xbox .xbox-type-colorpicker .xbox-colorpicker-preview span {
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+#cvp .xbox .xbox-type-colorpicker .xbox-grid input,
+#cvp .xbox .xbox-type-colorpicker.xbox-grid input {
+    width: 100% !important;
+    outline: none;
+}
+#cvp .xbox .xbox-type-colorpicker .xbox-repeatable-wrap {
+    display: inline-block;
+}
+#cvp .xbox .xbox-wrap-preview {
+    max-width: 100%;
+    list-style: none;
+    line-height: 1.6;
+}
+#cvp .xbox .xbox-wrap-preview .xbox-preview-item {
+    float: left;
+    position: relative;
+    display: inline-block;
+    margin: 15px 15px 0 0;
+    cursor: pointer;
+    min-height: 16px;
+    line-height: 1;
+}
+#cvp .xbox .xbox-wrap-preview .xbox-preview-item:last-child {
+    margin-right: 0;
+}
+#cvp .xbox .xbox-wrap-preview .xbox-preview-item .xbox-preview-icon-file {
+    float: left;
+    margin-right: 14px;
+    max-width: 24px;
+}
+#cvp .xbox .xbox-wrap-preview .xbox-preview-item .xbox-preview-download-link {
+    font-weight: 700;
+}
+#cvp .xbox .xbox-wrap-preview .xbox-preview-item .xbox-preview-mime {
+    padding: 5px 0;
+    line-height: 1;
+    display: block;
+}
+#cvp .xbox .xbox-wrap-preview .xbox-preview-item .xbox-remove-preview {
+    position: absolute;
+    top: -10px;
+    left: 18px;
+    opacity: 0.8;
+}
+#cvp .xbox .xbox-wrap-preview .xbox-preview-item.xbox-preview-oembed .xbox-remove-preview {
+    position: absolute;
+    top: -12px;
+    right: -12px;
+    left: auto;
+}
+#cvp .xbox .xbox-wrap-preview .xbox-preview-item.xbox-preview-image .xbox-remove-preview {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    left: auto;
+}
+#cvp .xbox .xbox-wrap-preview .xbox-preview-item.xbox-preview-video .xbox-remove-preview,
+#cvp .xbox-field-id-thumb .xbox-remove-preview {
+    display: none;
+}
+#cvp .xbox .xbox-btn-input:not(.xbox-btn-preview-multiple) {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+#cvp .xbox .xbox-type-file input {
+    width: 100%;
+    padding-right: 50px;
+    max-width: 100%;
+}
+#cvp img.xbox-image {
+    display: block;
+    padding: 3px;
+    border: 1px solid #e5e5e5;
+    box-sizing: border-box;
+    max-width: 100%;
+    height: auto;
+    background: #fff;
+}
+#cvp .xbox .xbox-type-file .xbox-upload-file i {
+    font-size: 1.2em;
+}
+#cvp .xbox .xbox-type-file .xbox-has-multiple .xbox-upload-file {
+    position: relative;
+}
+#cvp .xbox .xbox-type-file .xbox-grid input,
+#cvp .xbox .xbox-type-file.xbox-grid input {
+    width: 100%;
+}
+#cvp .xbox .xbox-type-oembed input {
+    padding-right: 50px;
+}
+#cvp .xbox .xbox-type-oembed .xbox-wrap-oembed .xbox-preview-oembed {
+    padding: 3px;
+    border: 1px solid #e5e5e5;
+    box-sizing: border-box;
+    margin-right: 0;
+}
+#cvp .xbox .xbox-type-oembed .xbox-wrap-oembed.xbox-oembed-full-width .xbox-preview-oembed {
+    display: block;
+    width: 100%;
+}
+#cvp .xbox .xbox-type-oembed .xbox-wrap-oembed.xbox-oembed-full-width .xbox-preview-oembed iframe {
+    width: 100% !important;
+    min-height: 200px;
+}
+#cvp .xbox .xbox-type-oembed .xbox-wrap-oembed .xbox-preview-oembed .xbox-oembed-provider-soundcloud iframe {
+    min-height: 100px;
+}
+#cvp .xbox .xbox-type-oembed .xbox-wrap-oembed .xbox-preview-error {
+    display: inline-block;
+    margin-top: 5px;
+}
+#cvp #post-body:not(.xbox-columns-1) #side-sortables .xbox .xbox-row .xbox-label {
+    width: 100%;
+    border-right: 0;
+    padding-bottom: 0;
+    margin-bottom: -8px;
+}
+#cvp #post-body:not(.xbox-columns-1) #side-sortables .xbox .xbox-row .xbox-label + .xbox-content {
+    width: 100%;
+    padding: 15px 25px;
+    border-left: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+#cvp #post-body:not(.xbox-columns-1) #side-sortables .xbox .xbox-row.xbox-type-group > .xbox-label {
+    margin-bottom: 0;
+    padding-bottom: 15px;
+}
+#cvp #post-body:not(.xbox-columns-1) #side-sortables .xbox .xbox-row.xbox-row-mixed.xbox-grid {
+    width: 100%;
+    margin-right: 0;
+}
+#cvp #post-body:not(.xbox-columns-1) #side-sortables .xbox .xbox-header {
+    display: block;
+    height: auto;
+    max-height: initial;
+}
+#cvp #post-body:not(.xbox-columns-1) #side-sortables .xbox .xbox-header .xbox-header-title {
+    display: block;
+    width: 100%;
+    border-right: 0;
+    border-top-right-radius: 4px;
+}
+#cvp #post-body:not(.xbox-columns-1) #side-sortables .xbox .xbox-header .xbox-header-content {
+    display: block;
+    width: 100%;
+    border-top-right-radius: 0;
+}
+@media only screen and (max-width: 1024px) {
+    #cvp #post-body.columns-2 .xbox .xbox-row .xbox-label {
+        width: 100%;
+        border-right: 0;
+        padding-bottom: 0;
+        margin-bottom: -8px;
+    }
+    #cvp #post-body.columns-2 .xbox .xbox-row .xbox-label + .xbox-content {
+        width: 100%;
+        padding: 15px 25px;
+        border-left: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #cvp #post-body.columns-2 .xbox .xbox-row.xbox-type-group > .xbox-label {
+        margin-bottom: 0;
+        padding-bottom: 15px;
+    }
+    #cvp #post-body.columns-2:not(.xbox-columns-1) .xbox .xbox-tab.xbox-tab-left .xbox-row.xbox-row-mixed.xbox-grid {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+@media only screen and (max-width: 850px) {
+    #cvp .xbox-wrap-admin-page .xbox .xbox-header .xbox-header-content {
+        padding-right: 0;
+    }
+    #cvp .xbox-wrap-admin-page .xbox .xbox-header .xbox-header-content > p {
+        display: none;
+    }
+    #cvp #post-body .xbox .xbox-row .xbox-label,
+    #cvp .xbox-wrap-admin-page .xbox .xbox-row .xbox-label {
+        width: 100%;
+        border-right: 0;
+        padding-bottom: 0;
+        margin-bottom: -8px;
+    }
+    #cvp #post-body .xbox .xbox-row .xbox-label + .xbox-content,
+    #cvp .xbox-wrap-admin-page .xbox .xbox-row .xbox-label + .xbox-content {
+        width: 100%;
+        padding: 15px 25px;
+        border-left: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #cvp #post-body .xbox .xbox-row.xbox-type-group > .xbox-label,
+    #cvp .xbox-wrap-admin-page .xbox .xbox-row.xbox-type-group > .xbox-label {
+        margin-bottom: 0;
+        padding-bottom: 15px;
+    }
+    #cvp #post-body .xbox .xbox-row.xbox-type-group > .xbox-label .xbox-add-group-item,
+    #cvp .xbox-wrap-admin-page .xbox .xbox-row.xbox-type-group > .xbox-label .xbox-add-group-item {
+        margin-bottom: 8px;
+        margin-right: 0;
+    }
+    #cvp #post-body .xbox .xbox-row.xbox-type-group > .xbox-content,
+    #cvp .xbox-wrap-admin-page .xbox .xbox-row.xbox-type-group > .xbox-content {
+        display: block;
+    }
+    #cvp #post-body .xbox .xbox-row.xbox-type-group > .xbox-content > .xbox-group-control,
+    #cvp .xbox-wrap-admin-page .xbox .xbox-row.xbox-type-group > .xbox-content > .xbox-group-control {
+        display: block;
+        width: 100%;
+    }
+    #cvp #post-body .xbox .xbox-row.xbox-type-group > .xbox-content > .xbox-group-control > li,
+    #cvp .xbox-wrap-admin-page .xbox .xbox-row.xbox-type-group > .xbox-content > .xbox-group-control > li {
+        margin: 0 6px 20px 6px;
+    }
+    #cvp #post-body .xbox .xbox-row.xbox-type-group > .xbox-content > .xbox-group-control.xbox-group-control + .xbox-group-wrap,
+    #cvp .xbox-wrap-admin-page .xbox .xbox-row.xbox-type-group > .xbox-content > .xbox-group-control.xbox-group-control + .xbox-group-wrap {
+        padding-left: 0;
+    }
+    #cvp #post-body .xbox .xbox-row.xbox-type-group > .xbox-content > .xbox-group-wrap,
+    #cvp .xbox-wrap-admin-page .xbox .xbox-row.xbox-type-group > .xbox-content > .xbox-group-wrap {
+        display: block;
+    }
+}
+@media only screen and (max-width: 600px) {
+    #cvp #post-body .xbox .xbox-header .xbox-header-title,
+    #cvp .xbox-wrap-admin-page .xbox .xbox-header .xbox-header-title {
+        width: 100% !important;
+        border-top-right-radius: 4px;
+    }
+    #cvp #post-body .xbox .xbox-header .xbox-header-title h3,
+    #cvp .xbox-wrap-admin-page .xbox .xbox-header .xbox-header-title h3 {
+        text-align: center;
+    }
+    #cvp #post-body .xbox .xbox-header .xbox-header-content,
+    #cvp .xbox-wrap-admin-page .xbox .xbox-header .xbox-header-content {
+        display: none;
+    }
+    #cvp #post-body .xbox .xbox-header .xbox-header-actions,
+    #cvp .xbox-wrap-admin-page .xbox .xbox-header .xbox-header-actions {
+        position: relative;
+        top: auto;
+        right: auto;
+        background: #3a445a;
+        width: auto;
+        padding-bottom: 17px;
+        margin: 15px -25px -15px;
+    }
+    #cvp #post-body .xbox .xbox-row.xbox-grid,
+    #cvp .xbox-wrap-admin-page .xbox .xbox-row.xbox-grid {
+        width: 100%;
+        margin-right: 0;
+    }
+    #cvp #post-body .xbox .xbox-row .xbox-field.xbox-grid,
+    #cvp .xbox-wrap-admin-page .xbox .xbox-row .xbox-field.xbox-grid {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+#cvp .tipso_bubble.xbox-skin-blue .tipso_title > h3 {
+    border-bottom-color: #448bdd;
+}
+#cvp .xbox.xbox-skin-blue .xbox-header {
+    background: #3380da;
+}
+#cvp .xbox.xbox-skin-blue .xbox-header .xbox-header-title {
+    background: #3380da;
+    border-right-color: #2778d7;
+}
+#cvp .xbox.xbox-skin-blue input[type='number']:focus,
+#cvp .xbox.xbox-skin-blue input[type='text']:focus,
+#cvp .xbox.xbox-skin-blue textarea:focus {
+    border-color: #448bdd;
+}
+#cvp .xbox.xbox-skin-blue .xbox-type-checkbox .xbox-field .icheckbox_flat-blue,
+#cvp .xbox.xbox-skin-blue .xbox-type-import .xbox-field .iradio_flat-blue,
+#cvp .xbox.xbox-skin-blue .xbox-type-radio .xbox-field .iradio_flat-blue {
+    background-image: url(../img/icheck/blue.png);
+}
+#cvp .xbox.xbox-skin-blue .xbox-type-image_selector .xbox-radiochecks img.xbox-active,
+#cvp .xbox.xbox-skin-blue .xbox-type-import .xbox-radiochecks img.xbox-active {
+    border-color: #448bdd;
+}
+#cvp .xbox.xbox-skin-blue .xbox-type-number .xbox-has-unit input:focus + .xbox-unit {
+    background: #448bdd;
+}
+#cvp .xbox.xbox-skin-blue .xbox-type-switcher .xbox-sw-wrap .xbox-sw-inner.xbox-sw-on {
+    background: #448bdd;
+    box-shadow: 0 0 2px #2f7dd9 inset;
+}
+#cvp .xbox.xbox-skin-blue .ui.dropdown.selection.active {
+    border-color: #448bdd;
+}
+#cvp .xbox.xbox-skin-blue .ui.dropdown.selection.active:hover {
+    border-color: #448bdd;
+}
+#cvp .xbox.xbox-skin-blue .ui.dropdown.selection.active .menu {
+    border-color: #448bdd !important;
+}
+#cvp .xbox.xbox-skin-blue .xbox-group-control > li.xbox-active {
+    border-color: #3380da;
+}
+#cvp .xbox.xbox-skin-blue .xbox-group-control > li.xbox-active .xbox-actions {
+    background: #3380da;
+}
+#cvp .xbox.xbox-skin-blue .xbox-tab-header .xbox-tab-menu .xbox-item.active a:after {
+    background: #3380da;
+}
+#cvp .xbox.xbox-skin-blue .xbox-main-tab > .xbox-tab-header > .xbox-title-tab-menu {
+    background: #3380da;
+}
+#cvp .xbox.xbox-skin-blue .xbox-main-tab > .xbox-tab-header .xbox-tab-menu .xbox-item:after {
+    background: #3380da;
+}
+#cvp .tipso_bubble.xbox-skin-lightblue .tipso_title > h3 {
+    border-bottom-color: #209ee9;
+}
+#cvp .xbox.xbox-skin-lightblue .xbox-header {
+    background: #1694de;
+}
+#cvp .xbox.xbox-skin-lightblue .xbox-header .xbox-header-title {
+    background: #1694de;
+    border-right-color: #158bd0;
+}
+#cvp .xbox.xbox-skin-lightblue input[type='number']:focus,
+#cvp .xbox.xbox-skin-lightblue input[type='text']:focus,
+#cvp .xbox.xbox-skin-lightblue textarea:focus {
+    border-color: #209ee9;
+}
+#cvp .xbox.xbox-skin-lightblue .xbox-type-checkbox .xbox-field .icheckbox_flat-blue,
+#cvp .xbox.xbox-skin-lightblue .xbox-type-import .xbox-field .iradio_flat-blue,
+#cvp .xbox.xbox-skin-lightblue .xbox-type-radio .xbox-field .iradio_flat-blue {
+    background-image: url(../img/icheck/lightblue.png);
+}
+#cvp .xbox.xbox-skin-lightblue .xbox-type-image_selector .xbox-radiochecks img.xbox-active,
+#cvp .xbox.xbox-skin-lightblue .xbox-type-import .xbox-radiochecks img.xbox-active {
+    border-color: #209ee9;
+}
+#cvp .xbox.xbox-skin-lightblue .xbox-type-number .xbox-has-unit input:focus + .xbox-unit {
+    background: #209ee9;
+}
+#cvp .xbox.xbox-skin-lightblue .xbox-type-switcher .xbox-sw-wrap .xbox-sw-inner.xbox-sw-on {
+    background: #209ee9;
+    box-shadow: 0 0 2px #1691d9 inset;
+}
+#cvp .xbox.xbox-skin-lightblue .ui.dropdown.selection.active {
+    border-color: #209ee9;
+}
+#cvp .xbox.xbox-skin-lightblue .ui.dropdown.selection.active:hover {
+    border-color: #209ee9;
+}
+#cvp .xbox.xbox-skin-lightblue .ui.dropdown.selection.active .menu {
+    border-color: #209ee9 !important;
+}
+#cvp .xbox.xbox-skin-lightblue .xbox-group-control > li.xbox-active {
+    border-color: #1694de;
+}
+#cvp .xbox.xbox-skin-lightblue .xbox-group-control > li.xbox-active .xbox-actions {
+    background: #1694de;
+}
+#cvp .xbox.xbox-skin-lightblue .xbox-tab-header .xbox-tab-menu .xbox-item.active a:after {
+    background: #1694de;
+}
+#cvp .xbox.xbox-skin-lightblue .xbox-main-tab > .xbox-tab-header > .xbox-title-tab-menu {
+    background: #1694de;
+}
+#cvp .xbox.xbox-skin-lightblue .xbox-main-tab > .xbox-tab-header .xbox-tab-menu .xbox-item:after {
+    background: #1694de;
+}
+#cvp .tipso_bubble.xbox-skin-green .tipso_title > h3 {
+    border-bottom-color: #00b494;
+}
+#cvp .xbox.xbox-skin-green .xbox-header {
+    background: #00aa8c;
+}
+#cvp .xbox.xbox-skin-green .xbox-header .xbox-header-title {
+    background: #00aa8c;
+    border-right-color: #009b7f;
+}
+#cvp .xbox.xbox-skin-green input[type='number']:focus,
+#cvp .xbox.xbox-skin-green input[type='text']:focus,
+#cvp .xbox.xbox-skin-green textarea:focus {
+    border-color: #00b494;
+}
+#cvp .xbox.xbox-skin-green .xbox-type-checkbox .xbox-field .icheckbox_flat-blue,
+#cvp .xbox.xbox-skin-green .xbox-type-import .xbox-field .iradio_flat-blue,
+#cvp .xbox.xbox-skin-green .xbox-type-radio .xbox-field .iradio_flat-blue {
+    background-image: url(../img/icheck/green.png);
+}
+#cvp .xbox.xbox-skin-green .xbox-type-image_selector .xbox-radiochecks img.xbox-active,
+#cvp .xbox.xbox-skin-green .xbox-type-import .xbox-radiochecks img.xbox-active {
+    border-color: #00b494;
+}
+#cvp .xbox.xbox-skin-green .xbox-type-number .xbox-has-unit input:focus + .xbox-unit {
+    background: #00b494;
+}
+#cvp .xbox.xbox-skin-green .xbox-type-switcher .xbox-sw-wrap .xbox-sw-inner.xbox-sw-on {
+    background: #00b494;
+    box-shadow: 0 0 2px #009b7f inset;
+}
+#cvp .xbox.xbox-skin-green .ui.dropdown.selection.active {
+    border-color: #00b494;
+}
+#cvp .xbox.xbox-skin-green .ui.dropdown.selection.active:hover {
+    border-color: #00b494;
+}
+#cvp .xbox.xbox-skin-green .ui.dropdown.selection.active .menu {
+    border-color: #00b494 !important;
+}
+#cvp .xbox.xbox-skin-green .xbox-group-control > li.xbox-active {
+    border-color: #00aa8c;
+}
+#cvp .xbox.xbox-skin-green .xbox-group-control > li.xbox-active .xbox-actions {
+    background: #00aa8c;
+}
+#cvp .xbox.xbox-skin-green .xbox-tab-header .xbox-tab-menu .xbox-item.active a:after {
+    background: #00aa8c;
+}
+#cvp .xbox.xbox-skin-green .xbox-main-tab > .xbox-tab-header > .xbox-title-tab-menu {
+    background: #00aa8c;
+}
+#cvp .xbox.xbox-skin-green .xbox-main-tab > .xbox-tab-header .xbox-tab-menu .xbox-item:after {
+    background: #00aa8c;
+}
+#cvp .tipso_bubble.xbox-skin-teal .tipso_title > h3 {
+    border-bottom-color: #00bab2;
+}
+#cvp .xbox.xbox-skin-teal .xbox-header {
+    background: #00b5ad;
+}
+#cvp .xbox.xbox-skin-teal .xbox-header .xbox-header-title {
+    background: #00b5ad;
+    border-right-color: #00a69e;
+}
+#cvp .xbox.xbox-skin-teal input[type='number']:focus,
+#cvp .xbox.xbox-skin-teal input[type='text']:focus,
+#cvp .xbox.xbox-skin-teal textarea:focus {
+    border-color: #00bab2;
+}
+#cvp .xbox.xbox-skin-teal .xbox-type-checkbox .xbox-field .icheckbox_flat-blue,
+#cvp .xbox.xbox-skin-teal .xbox-type-import .xbox-field .iradio_flat-blue,
+#cvp .xbox.xbox-skin-teal .xbox-type-radio .xbox-field .iradio_flat-blue {
+    background-image: url(../img/icheck/teal.png);
+}
+#cvp .xbox.xbox-skin-teal .xbox-type-image_selector .xbox-radiochecks img.xbox-active,
+#cvp .xbox.xbox-skin-teal .xbox-type-import .xbox-radiochecks img.xbox-active {
+    border-color: #00bab2;
+}
+#cvp .xbox.xbox-skin-teal .xbox-type-number .xbox-has-unit input:focus + .xbox-unit {
+    background: #00bab2;
+}
+#cvp .xbox.xbox-skin-teal .xbox-type-switcher .xbox-sw-wrap .xbox-sw-inner.xbox-sw-on {
+    background: #00bab2;
+    box-shadow: 0 0 2px #00a19a inset;
+}
+#cvp .xbox.xbox-skin-teal .ui.dropdown.selection.active {
+    border-color: #00bab2;
+}
+#cvp .xbox.xbox-skin-teal .ui.dropdown.selection.active:hover {
+    border-color: #00bab2;
+}
+#cvp .xbox.xbox-skin-teal .ui.dropdown.selection.active .menu {
+    border-color: #00bab2 !important;
+}
+#cvp .xbox.xbox-skin-teal .xbox-group-control > li.xbox-active {
+    border-color: #00b5ad;
+}
+#cvp .xbox.xbox-skin-teal .xbox-group-control > li.xbox-active .xbox-actions {
+    background: #00b5ad;
+}
+#cvp .xbox.xbox-skin-teal .xbox-tab-header .xbox-tab-menu .xbox-item.active a:after {
+    background: #00b5ad;
+}
+#cvp .xbox.xbox-skin-teal .xbox-main-tab > .xbox-tab-header > .xbox-title-tab-menu {
+    background: #00b5ad;
+}
+#cvp .xbox.xbox-skin-teal .xbox-main-tab > .xbox-tab-header .xbox-tab-menu .xbox-item:after {
+    background: #00b5ad;
+}
+#cvp .tipso_bubble.xbox-skin-pink .tipso_title > h3 {
+    border-bottom-color: #dd3e88;
+}
+#cvp .xbox.xbox-skin-pink .xbox-header {
+    background: #dd3e88;
+}
+#cvp .xbox.xbox-skin-pink .xbox-header {
+    background: #fff;
+    height: 60px;
+    position: relative;
+    border-bottom: 1px solid #e5e5e5;
+}
+#cvp .xbox.xbox-skin-pink .xbox-header .xbox-header-title {
+    background: #dd3e88;
+    border-right-color: #f7528c;
+}
+#cvp .xbox.xbox-skin-pink input[type='number']:focus,
+#cvp .xbox.xbox-skin-pink input[type='text']:focus,
+#cvp .xbox.xbox-skin-pink textarea:focus {
+    border-color: #dd3e88;
+}
+#cvp .xbox.xbox-skin-pink .xbox-type-checkbox .xbox-field .icheckbox_flat-blue,
+#cvp .xbox.xbox-skin-pink .xbox-type-import .xbox-field .iradio_flat-blue,
+#cvp .xbox.xbox-skin-pink .xbox-type-radio .xbox-field .iradio_flat-blue {
+    background-image: url(../img/icheck/pink.png);
+}
+#cvp .xbox.xbox-skin-pink .xbox-type-image_selector .xbox-radiochecks img.xbox-active,
+#cvp .xbox.xbox-skin-pink .xbox-type-import .xbox-radiochecks img.xbox-active {
+    border-color: #dd3e88;
+}
+#cvp .xbox.xbox-skin-pink .xbox-type-number .xbox-has-unit input:focus + .xbox-unit {
+    background: #dd3e88;
+}
+#cvp .xbox.xbox-skin-pink .xbox-type-switcher .xbox-sw-wrap .xbox-sw-inner.xbox-sw-on {
+    background: linear-gradient(45deg, #932493 0%, #dd3e88 100%);
+    box-shadow: none;
+}
+#cvp .xbox.xbox-skin-pink .ui.dropdown.selection.active {
+    border-color: #dd3e88;
+}
+#cvp .xbox.xbox-skin-pink .ui.dropdown.selection.active:hover {
+    border-color: #dd3e88;
+}
+#cvp .xbox.xbox-skin-pink .ui.dropdown.selection.active .menu {
+    border-color: #dd3e88 !important;
+}
+#cvp .xbox.xbox-skin-pink .xbox-group-control > li.xbox-active {
+    border-color: #dd3e88;
+}
+#cvp .xbox.xbox-skin-pink .xbox-group-control > li.xbox-active .xbox-actions {
+    background: #dd3e88;
+}
+#cvp .xbox.xbox-skin-pink .xbox-tab-header .xbox-tab-menu .xbox-item.active a:after {
+    background: #dd3e88;
+}
+#cvp .xbox.xbox-skin-pink .xbox-main-tab > .xbox-tab-header > .xbox-title-tab-menu {
+    background: #dd3e88;
+}
+#cvp .xbox.xbox-skin-pink .xbox-main-tab > .xbox-tab-header .xbox-tab-menu .xbox-item:after {
+    background: linear-gradient(0deg, #932493 0%, #dd3e88 100%);
+}
+#cvp .tipso_bubble.xbox-skin-purple .tipso_title > h3 {
+    border-bottom-color: #8288e9;
+}
+#cvp .xbox.xbox-skin-purple .xbox-header {
+    background: #6c74e5;
+}
+#cvp .xbox.xbox-skin-purple .xbox-header .xbox-header-title {
+    background: #6c74e5;
+    border-right-color: #5f68e3;
+}
+#cvp .xbox.xbox-skin-purple input[type='number']:focus,
+#cvp .xbox.xbox-skin-purple input[type='text']:focus,
+#cvp .xbox.xbox-skin-purple textarea:focus {
+    border-color: #8288e9;
+}
+#cvp .xbox.xbox-skin-purple .xbox-type-checkbox .xbox-field .icheckbox_flat-blue,
+#cvp .xbox.xbox-skin-purple .xbox-type-import .xbox-field .iradio_flat-blue,
+#cvp .xbox.xbox-skin-purple .xbox-type-radio .xbox-field .iradio_flat-blue {
+    background-image: url(../img/icheck/purple.png);
+}
+#cvp .xbox.xbox-skin-purple .xbox-type-image_selector .xbox-radiochecks img.xbox-active,
+#cvp .xbox.xbox-skin-purple .xbox-type-import .xbox-radiochecks img.xbox-active {
+    border-color: #8288e9;
+}
+#cvp .xbox.xbox-skin-purple .xbox-type-number .xbox-has-unit input:focus + .xbox-unit {
+    background: #8288e9;
+}
+#cvp .xbox.xbox-skin-purple .xbox-type-switcher .xbox-sw-wrap .xbox-sw-inner.xbox-sw-on {
+    background: #8288e9;
+    box-shadow: 0 0 2px #6c74e5 inset;
+}
+#cvp .xbox.xbox-skin-purple .ui.dropdown.selection.active {
+    border-color: #8288e9;
+}
+#cvp .xbox.xbox-skin-purple .ui.dropdown.selection.active:hover {
+    border-color: #8288e9;
+}
+#cvp .xbox.xbox-skin-purple .ui.dropdown.selection.active .menu {
+    border-color: #8288e9 !important;
+}
+#cvp .xbox.xbox-skin-purple .xbox-group-control > li.xbox-active {
+    border-color: #6c74e5;
+}
+#cvp .xbox.xbox-skin-purple .xbox-group-control > li.xbox-active .xbox-actions {
+    background: #6c74e5;
+}
+#cvp .xbox.xbox-skin-purple .xbox-tab-header .xbox-tab-menu .xbox-item.active a:after {
+    background: #6c74e5;
+}
+#cvp .xbox.xbox-skin-purple .xbox-main-tab > .xbox-tab-header > .xbox-title-tab-menu {
+    background: #6c74e5;
+}
+#cvp .xbox.xbox-skin-purple .xbox-main-tab > .xbox-tab-header .xbox-tab-menu .xbox-item:after {
+    background: #6c74e5;
+}
+#cvp .tipso_bubble.xbox-skin-bluepurple .tipso_title > h3 {
+    border-bottom-color: #6986ee;
+}
+#cvp .xbox.xbox-skin-bluepurple .xbox-header {
+    background: #5274eb;
+}
+#cvp .xbox.xbox-skin-bluepurple .xbox-header .xbox-header-title {
+    background: #5274eb;
+    border-right-color: #4469e9;
+}
+#cvp .xbox.xbox-skin-bluepurple input[type='number']:focus,
+#cvp .xbox.xbox-skin-bluepurple input[type='text']:focus,
+#cvp .xbox.xbox-skin-bluepurple textarea:focus {
+    border-color: #6986ee;
+}
+#cvp .xbox.xbox-skin-bluepurple .xbox-type-checkbox .xbox-field .icheckbox_flat-blue,
+#cvp .xbox.xbox-skin-bluepurple .xbox-type-import .xbox-field .iradio_flat-blue,
+#cvp .xbox.xbox-skin-bluepurple .xbox-type-radio .xbox-field .iradio_flat-blue {
+    background-image: url(../img/icheck/bluepurple.png);
+}
+#cvp .xbox.xbox-skin-bluepurple .xbox-type-image_selector .xbox-radiochecks img.xbox-active,
+#cvp .xbox.xbox-skin-bluepurple .xbox-type-import .xbox-radiochecks img.xbox-active {
+    border-color: #6986ee;
+}
+#cvp .xbox.xbox-skin-bluepurple .xbox-type-number .xbox-has-unit input:focus + .xbox-unit {
+    background: #6986ee;
+}
+#cvp .xbox.xbox-skin-bluepurple .xbox-type-switcher .xbox-sw-wrap .xbox-sw-inner.xbox-sw-on {
+    background: #6986ee;
+    box-shadow: 0 0 2px #5274eb inset;
+}
+#cvp .xbox.xbox-skin-bluepurple .ui.dropdown.selection.active {
+    border-color: #6986ee;
+}
+#cvp .xbox.xbox-skin-bluepurple .ui.dropdown.selection.active:hover {
+    border-color: #6986ee;
+}
+#cvp .xbox.xbox-skin-bluepurple .ui.dropdown.selection.active .menu {
+    border-color: #6986ee !important;
+}
+#cvp .xbox.xbox-skin-bluepurple .xbox-group-control > li.xbox-active {
+    border-color: #5274eb;
+}
+#cvp .xbox.xbox-skin-bluepurple .xbox-group-control > li.xbox-active .xbox-actions {
+    background: #5274eb;
+}
+#cvp .xbox.xbox-skin-bluepurple .xbox-tab-header .xbox-tab-menu .xbox-item.active a:after {
+    background: #5274eb;
+}
+#cvp .xbox.xbox-skin-bluepurple .xbox-main-tab > .xbox-tab-header > .xbox-title-tab-menu {
+    background: #5274eb;
+}
+#cvp .xbox.xbox-skin-bluepurple .xbox-main-tab > .xbox-tab-header .xbox-tab-menu .xbox-item:after {
+    background: #5274eb;
+}
+#cvp .tipso_bubble.xbox-skin-yellow .tipso_title > h3 {
+    border-bottom-color: #fca63d;
+}
+#cvp .xbox.xbox-skin-yellow .xbox-header {
+    background: #fc9f2e;
+}
+#cvp .xbox.xbox-skin-yellow .xbox-header .xbox-header-title {
+    background: #fc9f2e;
+    border-right-color: #fc981f;
+}
+#cvp .xbox.xbox-skin-yellow input[type='number']:focus,
+#cvp .xbox.xbox-skin-yellow input[type='text']:focus,
+#cvp .xbox.xbox-skin-yellow textarea:focus {
+    border-color: #fca63d;
+}
+#cvp .xbox.xbox-skin-yellow .xbox-type-checkbox .xbox-field .icheckbox_flat-blue,
+#cvp .xbox.xbox-skin-yellow .xbox-type-import .xbox-field .iradio_flat-blue,
+#cvp .xbox.xbox-skin-yellow .xbox-type-radio .xbox-field .iradio_flat-blue {
+    background-image: url(../img/icheck/yellow.png);
+}
+#cvp .xbox.xbox-skin-yellow .xbox-type-image_selector .xbox-radiochecks img.xbox-active,
+#cvp .xbox.xbox-skin-yellow .xbox-type-import .xbox-radiochecks img.xbox-active {
+    border-color: #fca63d;
+}
+#cvp .xbox.xbox-skin-yellow .xbox-type-number .xbox-has-unit input:focus + .xbox-unit {
+    background: #fca63d;
+}
+#cvp .xbox.xbox-skin-yellow .xbox-type-switcher .xbox-sw-wrap .xbox-sw-inner.xbox-sw-on {
+    background: #fca63d;
+    box-shadow: 0 0 2px #fc9a24 inset;
+}
+#cvp .xbox.xbox-skin-yellow .ui.dropdown.selection.active {
+    border-color: #fca63d;
+}
+#cvp .xbox.xbox-skin-yellow .ui.dropdown.selection.active:hover {
+    border-color: #fca63d;
+}
+#cvp .xbox.xbox-skin-yellow .ui.dropdown.selection.active .menu {
+    border-color: #fca63d !important;
+}
+#cvp .xbox.xbox-skin-yellow .xbox-group-control > li.xbox-active {
+    border-color: #fc9f2e;
+}
+#cvp .xbox.xbox-skin-yellow .xbox-group-control > li.xbox-active .xbox-actions {
+    background: #fc9f2e;
+}
+#cvp .xbox.xbox-skin-yellow .xbox-tab-header .xbox-tab-menu .xbox-item.active a:after {
+    background: #fc9f2e;
+}
+#cvp .xbox.xbox-skin-yellow .xbox-main-tab > .xbox-tab-header > .xbox-title-tab-menu {
+    background: #fc9f2e;
+}
+#cvp .xbox.xbox-skin-yellow .xbox-main-tab > .xbox-tab-header .xbox-tab-menu .xbox-item:after {
+    background: #fc9f2e;
+}
+#cvp .tipso_bubble.xbox-skin-orange .tipso_title > h3 {
+    border-bottom-color: #f97c72;
+}
+#cvp .xbox.xbox-skin-orange .xbox-header {
+    background: #f86a5e;
+}
+#cvp .xbox.xbox-skin-orange .xbox-header .xbox-header-title {
+    background: #f86a5e;
+    border-right-color: #f75c4f;
+}
+#cvp .xbox.xbox-skin-orange input[type='number']:focus,
+#cvp .xbox.xbox-skin-orange input[type='text']:focus,
+#cvp .xbox.xbox-skin-orange textarea:focus {
+    border-color: #f97c72;
+}
+#cvp .xbox.xbox-skin-orange .xbox-type-checkbox .xbox-field .icheckbox_flat-blue,
+#cvp .xbox.xbox-skin-orange .xbox-type-import .xbox-field .iradio_flat-blue,
+#cvp .xbox.xbox-skin-orange .xbox-type-radio .xbox-field .iradio_flat-blue {
+    background-image: url(../img/icheck/orange.png);
+}
+#cvp .xbox.xbox-skin-orange .xbox-type-image_selector .xbox-radiochecks img.xbox-active,
+#cvp .xbox.xbox-skin-orange .xbox-type-import .xbox-radiochecks img.xbox-active {
+    border-color: #f97c72;
+}
+#cvp .xbox.xbox-skin-orange .xbox-type-number .xbox-has-unit input:focus + .xbox-unit {
+    background: #f97c72;
+}
+#cvp .xbox.xbox-skin-orange .xbox-type-switcher .xbox-sw-wrap .xbox-sw-inner.xbox-sw-on {
+    background: #f97c72;
+    box-shadow: 0 0 2px #f86559 inset;
+}
+#cvp .xbox.xbox-skin-orange .ui.dropdown.selection.active {
+    border-color: #f97c72;
+}
+#cvp .xbox.xbox-skin-orange .ui.dropdown.selection.active:hover {
+    border-color: #f97c72;
+}
+#cvp .xbox.xbox-skin-orange .ui.dropdown.selection.active .menu {
+    border-color: #f97c72 !important;
+}
+#cvp .xbox.xbox-skin-orange .xbox-group-control > li.xbox-active {
+    border-color: #f86a5e;
+}
+#cvp .xbox.xbox-skin-orange .xbox-group-control > li.xbox-active .xbox-actions {
+    background: #f86a5e;
+}
+#cvp .xbox.xbox-skin-orange .xbox-tab-header .xbox-tab-menu .xbox-item.active a:after {
+    background: #f86a5e;
+}
+#cvp .xbox.xbox-skin-orange .xbox-main-tab > .xbox-tab-header > .xbox-title-tab-menu {
+    background: #f86a5e;
+}
+#cvp .xbox.xbox-skin-orange .xbox-main-tab > .xbox-tab-header .xbox-tab-menu .xbox-item:after {
+    background: #f86a5e;
+}
+#cvp .xbox-field-id-footer-ad-desktop,
+#cvp .xbox-field-id-footer-ad-mobile,
+#cvp .xbox-field-id-header-ad-desktop,
+#cvp .xbox-field-id-header-ad-mobile,
+#cvp .xbox-field-id-inside-player-ad-mobile,
+#cvp .xbox-field-id-inside-player-ad-zone-1-desktop,
+#cvp .xbox-field-id-inside-player-ad-zone-2-desktop,
+#cvp .xbox-field-id-sidebar-ad-desktop,
+#cvp .xbox-field-id-sidebar-ad-desktop-1,
+#cvp .xbox-field-id-sidebar-ad-desktop-2,
+#cvp .xbox-field-id-sidebar-ad-desktop-3,
+#cvp .xbox-field-id-sidebar-ad-mobile,
+#cvp .xbox-field-id-under-player-ad-desktop,
+#cvp .xbox-field-id-under-player-ad-mobile,
+#cvp .xbox-field-id-video-listing-ad-desktop,
+#cvp .xbox-field-id-videos-list-ad-1,
+#cvp .xbox-field-id-videos-list-ad-2,
+#cvp .xbox-field-id-videos-per-page,
+#cvp .xbox-field-id-videos-per-page-mobile,
+#cvp .xbox-field-id-videos-per-row,
+#cvp .xbox-field-id-videos-per-row-mobile,
+#cvp .xbox-field-id-ad-pause-1,
+#cvp .xbox-field-id-ad-pause-2,
+#cvp .xbox-field-id-ad-under-video-player,
+#cvp .xbox-field-id-above-related-videos-ad-mobile,
+#cvp .xbox-field-id-videos-per-category-page,
+#cvp .xbox-field-id-categories-per-row {
+    float: left;
+    margin-right: 20px;
+}
+#cvp .xbox-field-description img,
+#cvp .xbox-row-id-footer-ad-desktop img,
+#cvp .xbox-row-id-footer-ad-mobile img,
+#cvp .xbox-row-id-header-ad-desktop img,
+#cvp .xbox-row-id-header-ad-mobile img,
+#cvp .xbox-row-id-inside-player-ad-mobile img,
+#cvp .xbox-row-id-inside-player-ad-zone-1-desktop img,
+#cvp .xbox-row-id-inside-player-ad-zone-2-desktop img,
+#cvp .xbox-row-id-sidebar-ad-desktop img,
+#cvp .xbox-row-id-sidebar-ad-mobile img,
+#cvp .xbox-row-id-under-player-ad-desktop img,
+#cvp .xbox-row-id-under-player-ad-mobile img {
+    margin-top: -8px;
+}
+#cvp .xbox-row-id-show-videos-homepage .xbox-label-mixed {
+    line-height: 5px;
+}
+#cvp .xbox-row-id-video_url .xbox-field-description ul.video-icons {
+    display: block;
+    overflow: hidden;
+    list-style: none;
+    margin-top: 5px;
+}
+#cvp .xbox-row-id-video_url .xbox-field-description ul.video-icons li {
+    float: left;
+}
+#cvp .xbox-row-id-video_url .xbox-field-description ul.video-icons li img {
+    margin: 5px 10px 5px 0;
+    height: 20px;
+}
+#cvp ul.xbox-tab-menu {
+    margin-bottom: 0;
+}
+#cvp .responsive-player {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+#cvp .responsive-player iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

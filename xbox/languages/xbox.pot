@@ -1,0 +1,205 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Xbox Framework\n"
+"POT-Creation-Date: 2016-12-30 01:34-0500\n"
+"PO-Revision-Date: 2016-12-30 01:33-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: xbox.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/class-admin-page.php:15
+msgid "Admin Page"
+msgstr ""
+
+#: includes/class-admin-page.php:16
+msgid "Xbox Page"
+msgstr ""
+
+#: includes/class-admin-page.php:21
+msgid "Settings updated"
+msgstr ""
+
+#: includes/class-admin-page.php:22
+msgid "Settings reset"
+msgstr ""
+
+#: includes/class-admin-page.php:23
+msgid "Settings imported"
+msgstr ""
+
+#: includes/class-admin-page.php:24
+msgid "There were problems importing the data. Please try again."
+msgstr ""
+
+#: includes/class-admin-page.php:32
+msgid "Save Changes"
+msgstr ""
+
+#: includes/class-admin-page.php:34
+msgid "Reset to Defaults"
+msgstr ""
+
+#: includes/class-assets-loader.php:141
+msgctxt "Button - On confirm popup"
+msgid "Accept"
+msgstr ""
+
+#: includes/class-assets-loader.php:142
+msgctxt "Button - On confirm popup"
+msgid "Cancel"
+msgstr ""
+
+#: includes/class-assets-loader.php:145
+msgctxt "Title - On popup \"remove item\""
+msgid "Delete"
+msgstr ""
+
+#: includes/class-assets-loader.php:146
+msgctxt "Content - On popup \"remove item\""
+msgid "Are you sure you want to delete?"
+msgstr ""
+
+#: includes/class-assets-loader.php:149
+msgctxt "Title - On popup \"Validation url\""
+msgid "Validation"
+msgstr ""
+
+#: includes/class-assets-loader.php:150
+msgctxt "Content - On popup \"Validation url\""
+msgid "Please enter a valid url"
+msgstr ""
+
+#: includes/class-assets-loader.php:153
+msgctxt "Title - On popup \"Reset values\""
+msgid "Reset values"
+msgstr ""
+
+#: includes/class-assets-loader.php:154
+msgctxt "Content - On popup \"Reset values\""
+msgid ""
+"Are you sure you want to reset all options to the default values? All saved "
+"data will be lost."
+msgstr ""
+
+#: includes/class-assets-loader.php:157
+msgctxt "Title - On popup \"Import values\""
+msgid "Import values"
+msgstr ""
+
+#: includes/class-assets-loader.php:158
+msgctxt "Content - On popup \"Import values\""
+msgid ""
+"Are you sure you want to import all options? All current values will be lost "
+"and well be overwritten."
+msgstr ""
+
+#: includes/class-field-types.php:254
+msgid "Enter a valid json url"
+msgstr ""
+
+#: includes/class-field.php:166
+msgid "Upload file"
+msgstr ""
+
+#: includes/class-field.php:172
+msgid "Upload image"
+msgstr ""
+
+#: includes/class-field.php:178
+msgctxt "New item for groups"
+msgid "Add new"
+msgstr ""
+
+#: includes/class-field.php:179
+msgctxt "Remove item for groups"
+msgid "Remove"
+msgstr ""
+
+#: includes/class-field.php:229
+msgid "Import"
+msgstr ""
+
+#: includes/class-field.php:232
+msgctxt "Import/Export field"
+msgid "From file"
+msgstr ""
+
+#: includes/class-field.php:233
+msgctxt "Import/Export field"
+msgid "From url"
+msgstr ""
+
+#: includes/class-field.php:245
+msgid "Download"
+msgstr ""
+
+#: includes/class-field.php:269
+msgid "Get preview"
+msgstr ""
+
+#: includes/class-field.php:352
+msgctxt "New item for repeatable fields"
+msgid "Add new"
+msgstr ""
+
+#: includes/class-field.php:353
+msgctxt "Remove item for repeatable fields"
+msgid "Remove"
+msgstr ""
+
+#: includes/class-field.php:356
+msgid "Duplicate"
+msgstr ""
+
+#: includes/class-field.php:358
+msgid "Sort"
+msgstr ""
+
+#: includes/class-field.php:360
+msgid "Visibility"
+msgstr ""
+
+#: includes/class-functions.php:394
+#, php-format
+msgid "No oEmbed results found for %s. See"
+msgstr ""
+
+#: includes/class-metabox.php:15
+msgid "Xbox Metabox"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Xbox Framework"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://xboxframework.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Xbox is a powerful framework to create beautiful, professional and flexibles "
+"Meta boxes and Admin pages. Building meta boxes or admin pages has never "
+"been easier!"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "MaxLopez"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://codecanyon.net/user/maxlopez"
+msgstr ""

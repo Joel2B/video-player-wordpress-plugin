@@ -1,0 +1,161 @@
+@font-face {
+  font-family: 'switcher-font';
+  src: url('font/switcher-font.eot?86490784');
+  src: url('font/switcher-font.eot?86490784#iefix') format('embedded-opentype'),
+       url('font/switcher-font.woff2?86490784') format('woff2'),
+       url('font/switcher-font.woff?86490784') format('woff'),
+       url('font/switcher-font.ttf?86490784') format('truetype'),
+       url('font/switcher-font.svg?86490784#switcher-font') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icon-sw-off:before,
+.icon-sw-on:before {
+  font-family: "switcher-font";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-sw-off:before { content: '\e800'; }
+.icon-sw-on:before { content: '\e801'; }
+
+$base-color:  #CAD0D9;
+$off-color: $base-color;
+$on-color: #35a4e7;
+
+.xbox-sw-wrap {
+	display: inline-block;
+	direction: ltr;
+	height: 25px;
+  vertical-align: middle;
+
+  input {
+  	display: none !important;
+  }
+
+	.xbox-sw-inner {
+		display: inline-block;
+		position: relative;
+		width: 58px;
+		height: 25px;
+		border-radius: 40px;
+		background: $base-color;
+		overflow: hidden;
+		cursor: pointer;
+		transition: all .2s ease-in-out;
+
+		&.xbox-sw-has-icons {
+			width: 50px;
+		}
+
+		.xbox-sw-blob {
+			display: inline-block;
+			position: absolute;
+			top: 3px;
+			width: 18px;
+			height: 18px;
+			border-radius: 100%;
+			background: #fff;
+			box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 4px 0 rgba(0, 0, 0, 0.1);
+			z-index: 7;
+			transition: all .2s linear;
+		}
+
+		.xbox-sw-toggle {
+			font-family: "Trebuchet MS", Helvetica, sans-serif;
+		  font-size: 12px;
+			letter-spacing: 1px;
+			line-height: 18px;
+			color: darken($base-color, 40%);
+			font-weight: bold;
+			position: absolute;
+			top: 4px;
+			overflow: hidden;
+			text-align: center;
+			opacity: 0;
+			transition: all .2s ease-in-out .1s;
+
+			i {
+				display: inline-block;
+				font-size: 16px;
+				line-height: 17px;
+				color: darken($base-color, 30%);
+				font-weight: normal;
+			}
+			&.xbox-sw-toggle-on {
+				left: -20px;
+				z-index: 6;
+				color: white;
+			}
+			&.xbox-sw-toggle-off {
+				right: -20px;
+				z-index: 5;
+				i {
+					font-size: 17px;
+				}
+			}
+
+		}
+
+		&.xbox-sw-on {
+			background: $on-color;
+		  box-shadow: 0 0 2px darken($on-color, 5%) inset;
+		  i {
+		  	color: white;
+		  }
+		  .xbox-sw-blob {
+				left: 34px;
+			}
+			.xbox-sw-toggle-on {
+				left: 10px;
+				opacity: 1;
+			}
+			&.xbox-sw-has-icons {
+				.xbox-sw-blob {
+					left: 26px;
+				}
+				.xbox-sw-toggle-on {
+					left: 8px;
+				}
+			}
+		}
+
+
+		&.xbox-sw-off {
+			background: $off-color;
+			box-shadow: 0px 0px 2px darken($off-color, 15%) inset;
+
+			.xbox-sw-blob {
+				left: 6px;
+			}
+			.xbox-sw-toggle-off {
+				right: 6px;
+				opacity: 1;
+			}
+
+			&.xbox-sw-has-icons {
+				.xbox-sw-blob {
+					left: 6px;
+				}
+				.xbox-sw-toggle-off {
+					right: 8px;
+				}
+			}
+		}
+
+		&.xbox-sw-disabled {
+			opacity: 0.4;
+			filter: alpha(opacity=65);
+			cursor: default;
+		}
+	}
+}

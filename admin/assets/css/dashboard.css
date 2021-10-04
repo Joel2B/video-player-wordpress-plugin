@@ -1,0 +1,14 @@
+#cvp .core__version {
+    line-height: 28px;
+}
+
+/* LOGS */
+#cvp #logs table th {
+    vertical-align: middle;
+}
+
+#cvp #logs table th select,
+#cvp #logs table th input {
+    font-weight: normal !important;
+    font-size: 85% !important;
+}

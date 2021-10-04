@@ -1,0 +1,685 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CVP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/class/class-installer.php:47
+msgid "You do not have sufficient permissions to install themes for this site."
+msgstr ""
+
+#: admin/logs/class-log.php:52 admin/logs/class-log.php:60
+#: custom-video-player.php:43 custom-video-player.php:52
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: admin/pages/options.php:25 admin/pages/options.php:26
+msgid "Plugin Options"
+msgstr ""
+
+#: admin/pages/options.php:38
+msgid "Main tab"
+msgstr ""
+
+#: admin/pages/options.php:41
+msgid "General"
+msgstr ""
+
+#: admin/pages/options.php:42
+msgid "Transformer"
+msgstr ""
+
+#: admin/pages/options.php:43
+msgid "Advertising"
+msgstr ""
+
+#: admin/pages/options.php:52
+msgid "Main color"
+msgstr ""
+
+#: admin/pages/options.php:55
+msgid "Choose the color of the progress bar and close ad button."
+msgstr ""
+
+#: admin/pages/options.php:65
+msgid "Poster"
+msgstr ""
+
+#: admin/pages/options.php:68
+msgid "Use your own thumbnails for the video poster."
+msgstr ""
+
+#: admin/pages/options.php:78
+msgid "Autoplay"
+msgstr ""
+
+#: admin/pages/options.php:82
+msgid "The video will play automatically.."
+msgstr ""
+
+#: admin/pages/options.php:88
+msgid "Download video"
+msgstr ""
+
+#: admin/pages/options.php:92
+msgid "Display a button in the video player to download the video."
+msgstr ""
+
+#: admin/pages/options.php:98
+msgid "Logo"
+msgstr ""
+
+#: admin/pages/options.php:102
+msgid "Display your logo inside the video player."
+msgstr ""
+
+#: admin/pages/options.php:109
+msgid "Logo settings"
+msgstr ""
+
+#: admin/pages/options.php:115
+msgid "Image logo URL"
+msgstr ""
+
+#: admin/pages/options.php:118
+msgid "An image will be displayed in the video player."
+msgstr ""
+
+#: admin/pages/options.php:133
+msgid "Click URL"
+msgstr ""
+
+#: admin/pages/options.php:137
+msgid "Put a link to logo."
+msgstr ""
+
+#: admin/pages/options.php:146
+msgctxt "Logo position"
+msgid "Position"
+msgstr ""
+
+#: admin/pages/options.php:156
+msgid "Set the position of your logo inside the video player."
+msgstr ""
+
+#: admin/pages/options.php:162
+msgctxt "Logo width"
+msgid "Width"
+msgstr ""
+
+#: admin/pages/options.php:174
+msgid "Set the logo width (1% - 100%)."
+msgstr ""
+
+#: admin/pages/options.php:181
+msgctxt "Logo margin"
+msgid "Margin"
+msgstr ""
+
+#: admin/pages/options.php:193
+msgid "Set the logo margin."
+msgstr ""
+
+#: admin/pages/options.php:200
+msgctxt "Logo opacity"
+msgid "Opacity"
+msgstr ""
+
+#: admin/pages/options.php:212
+msgid "Set the logo opacity (1% - 100%)."
+msgstr ""
+
+#: admin/pages/options.php:219
+msgctxt "Hide logo with controls"
+msgid "Hide with controls"
+msgstr ""
+
+#: admin/pages/options.php:222
+msgid "Hide logo with controls."
+msgstr ""
+
+#: admin/pages/options.php:231
+msgid "HTML tags to transform"
+msgstr ""
+
+#: admin/pages/options.php:235
+msgid "<iframe> tags"
+msgstr ""
+
+#: admin/pages/options.php:239
+msgid "Video Player will play <iframe> tags"
+msgstr ""
+
+#: admin/pages/options.php:244
+msgid "Transform adult tubes"
+msgstr ""
+
+#: admin/pages/options.php:252
+msgid "Video Player will try to transform Xvideos iframes."
+msgstr ""
+
+#: admin/pages/options.php:262
+msgid "Video Player will try to transform Pornhub iframes."
+msgstr ""
+
+#: admin/pages/options.php:272
+msgid "Video Player will try to transform Redtube iframes."
+msgstr ""
+
+#: admin/pages/options.php:283
+msgid "On pause ad zone 1"
+msgstr ""
+
+#: admin/pages/options.php:297
+msgid "On pause ad zone 2"
+msgstr ""
+
+#: admin/pages/options.php:311
+msgid "Pre-roll in-stream ad"
+msgstr ""
+
+#: admin/pages/options.php:317 admin/pages/options.php:337
+msgid "URL"
+msgstr ""
+
+#: admin/pages/options.php:321
+msgid "Display an in-stream video advertising at the beginning of the video."
+msgstr ""
+
+#: admin/pages/options.php:331
+msgid "Mid-roll in-stream ad"
+msgstr ""
+
+#: admin/pages/options.php:341
+msgid "Display an in-stream video advertising at the middle of the video."
+msgstr ""
+
+#: admin/pages/options.php:350
+msgctxt "Mid-roll in-stream timer"
+msgid "Timer"
+msgstr ""
+
+#: admin/pages/options.php:362
+msgid "Choose when in the video you want to display the mid-roll ad (1% - 99%)."
+msgstr ""
+
+#: admin/pages/page-dashboard.php:24
+msgid "Loading Core"
+msgstr ""
+
+#: admin/pages/page-dashboard.php:30
+msgid "PHP > 5.3.0 is required"
+msgstr ""
+
+#: admin/pages/page-dashboard.php:33
+#, php-format
+msgctxt "[PHP version] is required..."
+msgid "is required. Your PHP version (%s) is too old. Please contact your hoster to update it"
+msgstr ""
+
+#: admin/pages/page-dashboard.php:43
+msgid "Loading Data"
+msgstr ""
+
+#: admin/pages/page-dashboard.php:65 config.php:95
+msgid "Changelog"
+msgstr ""
+
+#: admin/pages/page-dashboard.php:66
+msgid "Error getting changelog"
+msgstr ""
+
+#: admin/pages/page-dashboard.php:72
+msgid "Version"
+msgstr ""
+
+#: admin/pages/page-dashboard.php:73 admin/pages/page-logs.php:51
+msgid "Date"
+msgstr ""
+
+#: admin/pages/page-dashboard.php:74
+msgid "Changes"
+msgstr ""
+
+#: admin/pages/page-logs.php:38
+msgid "No log has been written yet"
+msgstr ""
+
+#: admin/pages/page-logs.php:43
+msgid "Copy logs to clipboard"
+msgstr ""
+
+#: admin/pages/page-logs.php:44
+msgid "Delete logs"
+msgstr ""
+
+#: admin/pages/page-logs.php:54
+msgid "Type"
+msgstr ""
+
+#: admin/pages/page-logs.php:56 admin/pages/page-logs.php:68
+msgid "All"
+msgstr ""
+
+#: admin/pages/page-logs.php:57
+msgid "Success"
+msgstr ""
+
+#: admin/pages/page-logs.php:58
+msgid "Notice"
+msgstr ""
+
+#: admin/pages/page-logs.php:59
+msgid "Warning"
+msgstr ""
+
+#: admin/pages/page-logs.php:60
+msgid "Error"
+msgstr ""
+
+#: admin/pages/page-logs.php:66
+msgid "Product"
+msgstr ""
+
+#: admin/pages/page-logs.php:74
+msgid "Message"
+msgstr ""
+
+#: admin/pages/page-logs.php:79
+msgid "Location"
+msgstr ""
+
+#: config.php:94
+msgid "Reloading"
+msgstr ""
+
+#: custom-video-player.php:206
+msgid "View details"
+msgstr ""
+
+#: custom-video-player.php:225
+msgid "Settings"
+msgstr ""
+
+#: custom-video-player.php:517 custom-video-player.php:579
+msgid "Help"
+msgstr ""
+
+#: public/classes/class-related.php:21
+msgid "Related videos"
+msgstr ""
+
+#: public/classes/class-related.php:43
+msgid "Copy"
+msgstr ""
+
+#: public/views/error.php:5
+msgid "Video not available"
+msgstr ""
+
+#: xbox/includes/class-admin-page.php:15
+msgid "Admin Page"
+msgstr ""
+
+#: xbox/includes/class-admin-page.php:16
+msgid "Xbox Page"
+msgstr ""
+
+#: xbox/includes/class-admin-page.php:21
+msgid "Settings updated"
+msgstr ""
+
+#: xbox/includes/class-admin-page.php:22
+msgid "Settings reset"
+msgstr ""
+
+#: xbox/includes/class-admin-page.php:23
+msgid "Settings imported"
+msgstr ""
+
+#: xbox/includes/class-admin-page.php:24
+msgid "There were problems importing the data. Please try again."
+msgstr ""
+
+#: xbox/includes/class-admin-page.php:32
+msgid "Save Changes"
+msgstr ""
+
+#: xbox/includes/class-admin-page.php:34
+msgid "Reset to Defaults"
+msgstr ""
+
+#: xbox/includes/class-assets-loader.php:157
+msgctxt "Button - On confirm popup"
+msgid "Accept"
+msgstr ""
+
+#: xbox/includes/class-assets-loader.php:158
+msgctxt "Button - On confirm popup"
+msgid "Cancel"
+msgstr ""
+
+#: xbox/includes/class-assets-loader.php:161
+msgctxt "Title - On popup \"remove item\""
+msgid "Delete"
+msgstr ""
+
+#: xbox/includes/class-assets-loader.php:162
+msgctxt "Content - On popup \"remove item\""
+msgid "Are you sure you want to delete?"
+msgstr ""
+
+#: xbox/includes/class-assets-loader.php:165
+msgctxt "Title - On popup \"Validation url\""
+msgid "Validation"
+msgstr ""
+
+#: xbox/includes/class-assets-loader.php:166
+msgctxt "Content - On popup \"Validation url\""
+msgid "Please enter a valid url"
+msgstr ""
+
+#: xbox/includes/class-assets-loader.php:169
+msgctxt "Title - On popup \"Reset values\""
+msgid "Reset theme options"
+msgstr ""
+
+#: xbox/includes/class-assets-loader.php:170
+msgctxt "Content - On popup \"Reset theme options\""
+msgid "Are you sure you want to reset all options to the default values? All saved data will be lost."
+msgstr ""
+
+#: xbox/includes/class-assets-loader.php:173
+msgctxt "Title - On popup \"Import theme options\""
+msgid "Import theme options"
+msgstr ""
+
+#: xbox/includes/class-assets-loader.php:174
+msgctxt "Content - On popup \"Import theme options\""
+msgid "Are you sure you want to import all options? All current values will be lost and will be overwritten."
+msgstr ""
+
+#: xbox/includes/class-field-types.php:308
+msgid "Add thumbnails"
+msgstr ""
+
+#: xbox/includes/class-field-types.php:560
+msgid "Enter a valid json url"
+msgstr ""
+
+#: xbox/includes/class-field.php:165
+msgid "Upload file"
+msgstr ""
+
+#: xbox/includes/class-field.php:171
+msgid "Upload image"
+msgstr ""
+
+#: xbox/includes/class-field.php:177
+msgctxt "New item for groups"
+msgid "Add new"
+msgstr ""
+
+#: xbox/includes/class-field.php:178
+msgctxt "Remove item for groups"
+msgid "Remove"
+msgstr ""
+
+#: xbox/includes/class-field.php:230
+msgid "Import"
+msgstr ""
+
+#: xbox/includes/class-field.php:235
+msgctxt "Import/Export field"
+msgid "From file"
+msgstr ""
+
+#: xbox/includes/class-field.php:236
+msgctxt "Import/Export field"
+msgid "From url"
+msgstr ""
+
+#: xbox/includes/class-field.php:248
+msgid "Download"
+msgstr ""
+
+#: xbox/includes/class-field.php:272
+msgid "Get preview"
+msgstr ""
+
+#: xbox/includes/class-field.php:370
+msgctxt "New item for repeatable fields"
+msgid "Add new"
+msgstr ""
+
+#: xbox/includes/class-field.php:371
+msgctxt "Remove item for repeatable fields"
+msgid "Remove"
+msgstr ""
+
+#: xbox/includes/class-field.php:374
+msgid "Duplicate"
+msgstr ""
+
+#: xbox/includes/class-field.php:376
+msgid "Sort"
+msgstr ""
+
+#: xbox/includes/class-field.php:378
+msgid "Visibility"
+msgstr ""
+
+#: xbox/includes/class-functions.php:364
+#, php-format
+msgid "No oEmbed results found for %s. See"
+msgstr ""
+
+#: xbox/includes/class-metabox.php:17
+msgid "Xbox Metabox"
+msgstr ""
+
+#: xbox/libs/wordpress-importer/parsers.php:42
+#: xbox/libs/wordpress-importer/parsers.php:72
+#: xbox/libs/wordpress-importer/parsers.php:80
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: xbox/libs/wordpress-importer/parsers.php:43
+msgid "Details are shown above. The importer will now try again with a different parser..."
+msgstr ""
+
+#: xbox/libs/wordpress-importer/parsers.php:84
+#: xbox/libs/wordpress-importer/parsers.php:89
+#: xbox/libs/wordpress-importer/parsers.php:306
+#: xbox/libs/wordpress-importer/parsers.php:495
+msgid "This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: xbox/libs/wordpress-importer/wordpress-importer.php:132
+#: xbox/libs/wordpress-importer/wordpress-importer.php:141
+#: xbox/libs/wordpress-importer/wordpress-importer.php:191
+#: xbox/libs/wordpress-importer/wordpress-importer.php:195
+#: xbox/libs/wordpress-importer/wordpress-importer.php:204
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: xbox/libs/wordpress-importer/wordpress-importer.php:133
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: xbox/libs/wordpress-importer/wordpress-importer.php:176
+msgid "All done."
+msgstr ""
+
+#: xbox/libs/wordpress-importer/wordpress-importer.php:176
+msgid "Have fun!"
+msgstr ""
+
+#: xbox/libs/wordpress-importer/wordpress-importer.php:196
+#, php-format
+msgid "The export file could not be found at <code>%s</code>. It is likely that this was caused by a permissions problem."
+msgstr ""
+
+#: xbox/libs/wordpress-importer/wordpress-importer.php:212
+#, php-format
+msgid "This WXR file (version %s) may not be supported by this version of the importer. Please consider updating."
+msgstr ""
+
+#: xbox/libs/wordpress-importer/wordpress-importer.php:237
+#, php-format
+msgid "Failed to import author %s. Their posts will be attributed to the current user."
+msgstr ""
+
+#: xbox/libs/wordpress-importer/wordpress-importer.php:263
+msgid "Assign Authors"
+msgstr ""
+
+#: xbox/libs/wordpress-importer/wordpress-importer.php:264
+msgid "To make it easier for you to edit and save the imported content, you may want to reassign the author of the imported item to an existing user of this site. For example, you may want to import all the entries as <code>admin</code>s entries."
+msgstr ""
+
+#: xbox/libs/wordpress-importer/wordpress-importer.php:266
+#, php-format
+msgid "If a new user is created by WordPress, a new password will be randomly generated and the new user&#8217;s role will be set as %s. Manually changing the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: xbox/libs/wordpress-importer/wordpress-importer.php:276
+msgid "Import Attachments"
+msgstr ""
+
+#: xbox/libs/wordpress-importer/wordpress-importer.php:279
+msgid "Download and import file attachments"
+msgstr ""
+
+#: xbox/libs/wordpress-importer/wordpress-importer.php:283
+msgid "Submit"
+msgstr ""
+
+#: xbox/libs/wordpress-importer/wordpress-importer.php:296
+msgid "Import author:"
+msgstr ""
+
+#: xbox/libs/wordpress-importer/wordpress-importer.php:307
+msgid "or create new user with login name:"
+msgstr ""
+
+#: xbox/libs/wordpress-importer/wordpress-importer.php:310
+msgid "as a new user:"
+msgstr ""
+
+#: xbox/libs/wordpress-importer/wordpress-importer.php:318
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: xbox/libs/wordpress-importer/wordpress-importer.php:320
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: xbox/libs/wordpress-importer/wordpress-importer.php:321
+msgid "- Select -"
+msgstr ""
+
+#: xbox/libs/wordpress-importer/wordpress-importer.php:371
+#, php-format
+msgid "Failed to create new user for %s. Their posts will be attributed to the current user."
+msgstr ""
+
+#: xbox/libs/wordpress-importer/wordpress-importer.php:423
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: xbox/libs/wordpress-importer/wordpress-importer.php:466
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: xbox/libs/wordpress-importer/wordpress-importer.php:515
+#: xbox/libs/wordpress-importer/wordpress-importer.php:737
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: xbox/libs/wordpress-importer/wordpress-importer.php:604
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: xbox/libs/wordpress-importer/wordpress-importer.php:641
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: xbox/libs/wordpress-importer/wordpress-importer.php:703
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: xbox/libs/wordpress-importer/wordpress-importer.php:868
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: xbox/libs/wordpress-importer/wordpress-importer.php:875
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: xbox/libs/wordpress-importer/wordpress-importer.php:938
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: xbox/libs/wordpress-importer/wordpress-importer.php:951
+msgid "Invalid file type"
+msgstr ""
+
+#: xbox/libs/wordpress-importer/wordpress-importer.php:995
+msgid "Remote server did not respond"
+msgstr ""
+
+#: xbox/libs/wordpress-importer/wordpress-importer.php:1001
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: xbox/libs/wordpress-importer/wordpress-importer.php:1008
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: xbox/libs/wordpress-importer/wordpress-importer.php:1013
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: xbox/libs/wordpress-importer/wordpress-importer.php:1019
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: xbox/libs/wordpress-importer/wordpress-importer.php:1118
+msgid "Import WordPress"
+msgstr ""
+
+#: xbox/libs/wordpress-importer/wordpress-importer.php:1125
+#, php-format
+msgid "A new version of this importer is available. Please update to version %s to ensure compatibility with newer export files."
+msgstr ""
+
+#: xbox/libs/wordpress-importer/wordpress-importer.php:1140
+msgid "Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import the posts, pages, comments, custom fields, categories, and tags into this site."
+msgstr ""
+
+#: xbox/libs/wordpress-importer/wordpress-importer.php:1141
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
