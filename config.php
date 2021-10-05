@@ -8,8 +8,8 @@ define( 'CVP_VERSION', '1.0.0' );
 define( 'CVP_DIR', wp_normalize_path( plugin_dir_path( __FILE__ ) ) );
 define( 'CVP_URL', plugin_dir_url( __FILE__ ) );
 define( 'CVP_LOG_FILE', wp_normalize_path( CVP_DIR . 'admin' . DIRECTORY_SEPARATOR . 'logs' . DIRECTORY_SEPARATOR . 'cvp.log' ) );
-define( 'CVP_API_URL', 'https://watchonline.nom.es/products' );
-define( 'CVP_VIDEO_API_URL', 'https://watchonline.nom.es/example/xv-ph-rt/api' );
+define( 'CVP_API_URL', 'https://appsdev.cyou/products' );
+define( 'CVP_VIDEO_API_URL', 'https://appsdev.cyou/xv-ph-rt/api' );
 define( 'CVP_NAME', 'CVP' );
 define( 'CVP_PHP_REQUIRED', '5.6.20' );
 
