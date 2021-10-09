@@ -194,6 +194,9 @@ body {
     .thumbnail-content {
         display: block;
     }
+    .thumbnail-hover {
+        background-image: linear-gradient(0, rgb(0 0 0 / 80%) 0, transparent 15%);
+    }
 }
 
 /* horizontal ad block */
