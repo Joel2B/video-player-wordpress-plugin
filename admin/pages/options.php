@@ -84,6 +84,16 @@ function cvp_options() {
     );
     $xbox->add_field(
         array(
+            'id'      => 'loop',
+            'name'    => __( 'Loop', 'cvp_lang' ),
+            'type'    => 'switcher',
+            'default' => 'off',
+            'grid'    => '2-of-8',
+            'desc'    => __( 'The video will loop automatically..', 'cvp_lang' ),
+        )
+    );
+    $xbox->add_field(
+        array(
             'id'      => 'download',
             'name'    => __( 'Download video', 'cvp_lang' ),
             'type'    => 'switcher',

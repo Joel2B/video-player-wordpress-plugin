@@ -5,6 +5,7 @@ const config = {
         fillToContainer: true,
         primaryColor: options.primaryColor,
         autoPlay: options.autoPlay,
+        loop: options.loop,
         playButtonShowing: true,
         playPauseAnimation: true,
         allowDownload: options.allowDownload,
