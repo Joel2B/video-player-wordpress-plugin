@@ -14,12 +14,13 @@ class Player {
         $this->player = [
             'id'      => $this->video::VIDEO_TAG_ID,
             'options' => [
-                'primaryColor'  => esc_html( xbox_get_field_value( 'cvp-options', 'main-color' ) ),
-                'autoPlay'      => 'on' === esc_html( xbox_get_field_value( 'cvp-options', 'autoplay' ) ),
-                'loop'          => 'on' === esc_html( xbox_get_field_value( 'cvp-options', 'loop' ) ),
-                'allowDownload' => 'on' === esc_html( xbox_get_field_value( 'cvp-options', 'download' ) ),
-                'vastTimeout'   => 10000,
-                'thumbnails'    => $this->video->data->thumbnails,
+                'primaryColor'      => esc_html( xbox_get_field_value( 'cvp-options', 'main-color' ) ),
+                'autoPlay'          => 'on' === esc_html( xbox_get_field_value( 'cvp-options', 'autoplay' ) ),
+                'waitInteraction'   => 'on' === esc_html( xbox_get_field_value( 'cvp-options', 'waitInteraction' ) ),
+                'loop'              => 'on' === esc_html( xbox_get_field_value( 'cvp-options', 'loop' ) ),
+                'allowDownload'     => 'on' === esc_html( xbox_get_field_value( 'cvp-options', 'download' ) ),
+                'vastTimeout'       => 10000,
+                'thumbnails'        => $this->video->data->thumbnails,
             ],
         ];
 

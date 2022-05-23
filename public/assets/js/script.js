@@ -6,6 +6,7 @@ const config = {
         primaryColor: options.primaryColor,
         autoPlay: {
           active: options.autoPlay,
+          waitInteraction: options.waitInteraction,
         },
         loop: options.loop,
         playButtonShowing: true,
