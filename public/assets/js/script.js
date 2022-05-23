@@ -4,7 +4,9 @@ const config = {
     layoutControls: {
         fillToContainer: true,
         primaryColor: options.primaryColor,
-        autoPlay: options.autoPlay,
+        autoPlay: {
+          active: options.autoPlay,
+        },
         loop: options.loop,
         playButtonShowing: true,
         playPauseAnimation: true,
