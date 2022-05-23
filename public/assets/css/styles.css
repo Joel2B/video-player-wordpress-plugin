@@ -151,10 +151,12 @@ body {
     .thumbnail-content:nth-child(-n + 5) {
         display: block;
     }
+
     .thumbnail-content {
         width: 50%;
         height: 20%;
     }
+
     .url-content,
     .social-network {
         display: flex;
@@ -165,6 +167,7 @@ body {
     .thumbnail-content:nth-child(-n + 7) {
         display: block;
     }
+
     .thumbnail-content {
         width: 33%;
         height: 25%;
@@ -175,6 +178,7 @@ body {
     .thumbnail-content:nth-child(-n + 7) {
         display: block;
     }
+
     .thumbnail-content {
         width: 33%;
     }
@@ -184,6 +188,7 @@ body {
     .thumbnail-content:nth-child(-n + 10) {
         display: block;
     }
+
     .thumbnail-content {
         width: 33%;
         height: 25%;
@@ -194,6 +199,7 @@ body {
     .thumbnail-content {
         display: block;
     }
+
     .thumbnail-hover {
         background-image: linear-gradient(0, rgb(0 0 0 / 80%) 0, transparent 15%);
     }
@@ -208,6 +214,7 @@ body {
 #related-videos {
     height: calc(100% - 53px);
     display: none;
+    z-index: 2;
 }
 
 /* for when there's an error */
